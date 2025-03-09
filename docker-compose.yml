@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel_test_project
+    volumes:
+      - /home/zim/code/project-fly_eyes/laravel_crud/test-project:/var/www
+    ports:
+      - "8000:8000"
+    command: php artisan serve --host=0.0.0.0 --port=8000
+    networks:
+      - app-network
+      - signoz-net
+    # environment:
+    #   - OTLP_ENDPOINT=http://10.104.10.140:4318/v1/traces
+
+  db:
+    # image: mysql:8.0
+    # container_name: laravel_db
+    # environment:
+    #   MYSQL_DATABASE: test_crud
+    #   MYSQL_ROOT_PASSWORD: ""
+    #   MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    # volumes:
+    #   - dbdata:/var/lib/mysql
+    # networks:
+    #   - app-network
+
+
+    image: postgres:15
+    container_name: php-postgres
+    environment:
+      POSTGRES_DB: test_crud
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: "root"
+    ports:
+      - "5433:5432"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+  signoz-net:
+    external: true
+
+volumes:
+  dbdata:
