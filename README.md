@@ -1,66 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# FLY EYES - PHP Application
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This document provides details about the "FLY EYES" PHP application, including its location, startup instructions, and API call process.
 
-## About Laravel
+## Application Details
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Name**: FLY EYES
+- **Type**: PHP Application
+- **Purpose**: Sends data to Signoz
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Functionality
 
-## Learning Laravel
+The PHP application sends data(http request, database call, logs, external api call matrics) to Signoz, an observability platform, for monitoring or analytics purposes.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## How the Application Sends Data to Signoz
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+The PHP application integrates with Signoz using OpenTelemetry auto-instrumentation to collect and export telemetry data (traces, metrics, and logs) without manual span creation. This is achieved through a PHP extension, Composer packages, and environment variables.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Auto-Instrumentation Configuration (Zero Code Instrument)
 
-## Laravel Sponsors
+PHP Extension Installation:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+The OpenTelemetry PHP extension is installed in the Docker environment to enable auto-instrumentation at the runtime level:
+```
+RUN pecl install opentelemetry-1.0.0beta3 && docker-php-ext-enable opentelemetry
+```
 
-### Premium Partners
+Composer Packages:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+The following packages are included in the composer.json to support OpenTelemetry auto-instrumentation and OTLP export:
+```
+    "open-telemetry/exporter-otlp": "^1.2",
+    "open-telemetry/opentelemetry-auto-laravel": "^1.0",
+    "open-telemetry/opentelemetry-auto-slim": "^1.0",
+    "open-telemetry/opentelemetry-logger-monolog": "^1.0",
+    "open-telemetry/sdk": "^1.2",
+    "php-http/guzzle7-adapter": "^1.1",
+```
+"open-telemetry/opentelemetry-auto-laravel": "^1.0" - Provides Laravel-specific auto-instrumentation.
+"open-telemetry/sdk": Core OpenTelemetry SDK for PHP.
+"open-telemetry/exporter-otlp": Handles exporting telemetry data via OTLP.
+"php-http/guzzle7-adapter": HTTP client adapter for sending data over OTLP.
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Environment Variables:
 
-## Code of Conduct
+Auto-instrumentation is configured via environment variables in the .env file:
+```
+OTEL_SERVICE_NAME=Laravel-Instrumentation
+OTEL_EXPORTER_OTLP_ENDPOINT=http://10.104.10.140:44318/v1/traces
+OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=http://10.104.10.140:44318/v1/traces
+OTEL_EXPORTER_OTLP_LOGS_ENDPOINT=http://10.104.10.140:44318/v1/logs
+OTEL_PHP_AUTOLOAD_ENABLED=true
+OTEL_TRACES_EXPORTER=otlp
+OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
+OTEL_LOG_LEVEL=info
+OTEL_PROPAGATORS=baggage,tracecontext
+OTEL_ENABLED=true
+```
+OTEL_SERVICE_NAME: Defines the service name displayed in Signoz (e.g., "Laravel-Instrumentation").
+OTEL_EXPORTER_OTLP_ENDPOINT: Specifies the Signoz endpoint for traces.
+OTEL_TRACES_EXPORTER: Sets the exporter to OTLP.
+OTEL_EXPORTER_OTLP_PROTOCOL: Configures the protocol to http/protobuf for Protobuf over HTTP.
+OTEL_PHP_AUTOLOAD_ENABLED: Enables auto-instrumentation at the PHP level.
+OTEL_PROPAGATORS: Configures context propagation (e.g., baggage and tracecontext).
+OTEL_ENABLED: Globally enables OpenTelemetry.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+## Data Collection (Controller)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+The open-telemetry/opentelemetry-auto-laravel package automatically instruments Laravel components such as HTTP requests, middleware, database queries (e.g., Eloquent), and other framework-level operations.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
