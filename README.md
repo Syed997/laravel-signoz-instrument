@@ -1,66 +1,104 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# FLY EYES - PHP Application
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This document provides details about the "FLY EYES" PHP application, including its location, startup instructions, and API call process.
 
-## About Laravel
+## Application Details
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Name**: FLY EYES
+- **Type**: PHP Application
+- **Purpose**: Sends data to Signoz
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Application Location
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+To navigate to the application directory:
 
-## Learning Laravel
+```bash
+cd /data/apps/php-apps/test-project
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Starting the PHP Application
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+To start the PHP application using Docker Compose:
 
-## Laravel Sponsors
+```bash
+cd /data/apps/php-apps/test-project
+docker-compose up
+```
+## API Call
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+To execute the API call script:
 
-### Premium Partners
+```bash
+cd /data/apps/php-apps
+./apiCall.sh
+```
+## Functionality
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+The PHP application sends data to Signoz, an observability platform, for monitoring or analytics purposes.
 
-## Contributing
+## How the Application Sends Data to Signoz
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+The application integrates with Signoz using OpenTelemetry, a framework for collecting and exporting telemetry data (traces, metrics, and logs). Below is an overview of how it sends data:
 
-## Code of Conduct
+## OpenTelemetry Setup (Service Provider)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+The telemetry functionality is configured in the OpenTelemetryServiceProvider class, which registers a Tracer singleton in the Laravel application:
 
-## Security Vulnerabilities
+Tracer Initialization:
+A TracerProvider is created with a SimpleSpanProcessor and a SpanExporter.
+The SpanExporter uses the OTLP (OpenTelemetry Protocol) over HTTP to send data to Signoz.
+The endpoint for Signoz is configurable via the OTLP_ENDPOINT environment variable (defaults to http://localhost:4318/v1/traces).
+The data is sent in Protobuf format (application/x-protobuf).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Resource Configuration:
+The application attaches metadata, such as the service name (e.g., "Laravel App"), to the telemetry data using ResourceInfo.
 
-## License
+```
+$transport = $transportFactory->create(env('OTLP_ENDPOINT', 'http://localhost:4318/v1/traces'), 'application/x-protobuf');
+$exporter = new SpanExporter($transport);
+$spanProcessor = new SimpleSpanProcessor($exporter);
+$tracerProvider = new TracerProvider([$spanProcessor], null, $resource);
+return $tracerProvider->getTracer('laravel-tracer');
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+
+## Data Collection (Controller)
+
+The PersonController uses the injected Tracer to create and manage spans for API operations (e.g., index, store, show, update, destroy). These spans track the execution of HTTP requests and database interactions, which are then sent to Signoz.
+
+Span Creation:
+For each API method, a root span is created (e.g., GET /api/people, POST /api/people) with attributes like HTTP method, route, and status code.
+Nested spans (e.g., DB Fetch, DB Insert) track database operations, including the database system (postgres) and SQL statements.
+
+Attributes and Status:
+Spans are enriched with attributes (e.g., http.method, db.statement) and statuses (STATUS_OK or STATUS_ERROR) based on the operation’s success or failure.
+
+Error Handling:
+If an exception occurs, the span records the error with an appropriate HTTP status code (e.g., 404 for "Not Found", 500 for "Internal Server Error") and ends the span.
+
+Example from the index method:
+```
+$span = $this->tracer->spanBuilder('GET /api/people')->startSpan();
+$span->setAttribute('http.method', 'GET');
+$span->setAttribute('http.route', '/api/people');
+
+$dbSpan = $this->tracer->spanBuilder('DB Fetch')->startSpan();
+$dbSpan->setAttribute('db.system', 'postgres');
+$dbSpan->setAttribute('db.statement', 'SELECT * FROM people');
+
+$people = Person::all();
+$dbSpan->setStatus(StatusCode::STATUS_OK);
+$dbSpan->end();
+
+$span->setStatus(StatusCode::STATUS_OK);
+$span->end();
+```
+
+## Data Transmission
+
+Span Export: Once a span ends (via $span->end()), the SimpleSpanProcessor immediately forwards it to the SpanExporter.
+
+OTLP Protocol: The exporter sends the span data to the configured Signoz endpoint over HTTP using OTLP.
+
+Signoz Visualization: Signoz receives the traces, processes them, and makes them available for monitoring, allowing developers to analyze request latencies, database performance, and error rates.
