@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\ExternalApiController;
+use App\Http\Controllers\API\HelloController;
 use App\Http\Controllers\API\PersonController;
 use App\Http\Controllers\API\PersonReadController;
 use App\Http\Controllers\API\PersonWriteController;
@@ -38,3 +39,5 @@ Route::middleware('log.api')->group(function () {
 Route::get('/test-429', function (Request $request) {
     return response()->json(['error' => 'Too Many Requests'], Response::HTTP_TOO_MANY_REQUESTS);
 });
+
+Route::get('/hello', [HelloController::class, 'index']);
