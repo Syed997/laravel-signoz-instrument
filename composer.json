@@ -15,7 +15,6 @@
         "nyholm/psr7": "^1.8",
         "open-telemetry/exporter-otlp": "^1.2",
         "open-telemetry/opentelemetry-auto-laravel": "^1.0",
-        "open-telemetry/opentelemetry-auto-slim": "^1.0",
         "open-telemetry/opentelemetry-logger-monolog": "^1.0",
         "open-telemetry/sdk": "^1.2",
         "php-http/guzzle7-adapter": "^1.1",
