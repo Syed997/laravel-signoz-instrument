@@ -10,10 +10,11 @@ services:
       - /home/zim/code/project-fly_eyes/laravel_crud/test-project:/var/www
     ports:
       - "8000:8000"
-    command: php artisan serve --host=0.0.0.0 --port=8000
+    command: sh -c "php artisan serve --host=0.0.0.0 --port=8000 > /var/www/otel_output.txt 2>&1"
     networks:
       - app-network
-      - signoz-net
+    #   - signoz-net
+
     # environment:
     #   - OTLP_ENDPOINT=http://10.104.10.140:4318/v1/traces
 

@@ -1,0 +1,5824 @@
+
+   INFO  Server running on [http://0.0.0.0:8000].  
+
+  Press Ctrl+C to stop the server
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "laravel",.  
+
+   WARN  "version": "1.0.0",.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": null,.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044876124001,.  
+
+   WARN  "observed_timestamp": 1754044876125603072,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "method": "GET",.  
+
+   WARN  "ip": "172.18.0.1",.  
+
+   WARN  "user_agent": "curl\/8.5.0",.  
+
+   WARN  "request_data": [],.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044876163146,.  
+
+   WARN  "observed_timestamp": 1754044876163337984,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "method": "GET",.  
+
+   WARN  "ip": "172.18.0.1",.  
+
+   WARN  "user_agent": "curl\/8.5.0",.  
+
+   WARN  "request_data": [],.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044877512854,.  
+
+   WARN  "observed_timestamp": 1754044877513331968,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "status_code": 200,.  
+
+   WARN  "response_data": "[{\"id\":1,\"name\":\"Leanne Graham\",\"username\":\"Bret\",\"email\":\"Sincere@april.biz\",\"address\":{\"street\":\"Kulas Light\",\"suite\":\"Apt. 556\",\"city\":\"Gwenborough\",\"zipcode\":\"92998-3874\",\"geo\":{\"lat\":\"-37.3159\",\"lng\":\"81.1496\"}},\"phone\":\"1-770-736-8031 x56442\",\"website\":\"hildegard.org\",\"company\":{\"name\":\"Romaguera-Crona\",\"catchPhrase\":\"Multi-layered client-server neural-net\",\"bs\":\"harness real-time e-markets\"}},{\"id\":2,\"name\":\"Ervin Howell\",\"username\":\"Antonette\",\"email\":\"Shanna@melissa.tv\",\"address\":{\"street\":\"Victor Plains\",\"suite\":\"Suite 879\",\"city\":\"Wisokyburgh\",\"zipcode\":\"90566-7771\",\"geo\":{\"lat\":\"-43.9509\",\"lng\":\"-34.4618\"}},\"phone\":\"010-692-6593 x09125\",\"website\":\"anastasia.net\",\"company\":{\"name\":\"Deckow-Crist\",\"catchPhrase\":\"Proactive didactic contingency\",\"bs\":\"synergize scalable supply-chains\"}},{\"id\":3,\"name\":\"Clementine Bauch\",\"username\":\"Samantha\",\"email\":\"Nathan@yesenia.net\",\"address\":{\"street\":\"Douglas Extension\",\"suite\":\"Suite 847\",\"city\":\"McKenziehaven\",\"zipcode\":\"59590-4157\",\"geo\":{\"lat\":\"-68.6102\",\"lng\":\"-47.0653\"}},\"phone\":\"1-463-123-4447\",\"website\":\"ramiro.info\",\"company\":{\"name\":\"Romaguera-Jacobson\",\"catchPhrase\":\"Face to face bifurcated interface\",\"bs\":\"e-enable strategic applications\"}},{\"id\":4,\"name\":\"Patricia Lebsack\",\"username\":\"Karianne\",\"email\":\"Julianne.OConner@kory.org\",\"address\":{\"street\":\"Hoeger Mall\",\"suite\":\"Apt. 692\",\"city\":\"South Elvis\",\"zipcode\":\"53919-4257\",\"geo\":{\"lat\":\"29.4572\",\"lng\":\"-164.2990\"}},\"phone\":\"493-170-9623 x156\",\"website\":\"kale.biz\",\"company\":{\"name\":\"Robel-Corkery\",\"catchPhrase\":\"Multi-tiered zero tolerance productivity\",\"bs\":\"transition cutting-edge web services\"}},{\"id\":5,\"name\":\"Chelsey Dietrich\",\"username\":\"Kamren\",\"email\":\"Lucio_Hettinger@annie.ca\",\"address\":{\"street\":\"Skiles Walks\",\"suite\":\"Suite 351\",\"city\":\"Roscoeview\",\"zipcode\":\"33263\",\"geo\":{\"lat\":\"-31.8129\",\"lng\":\"62.5342\"}},\"phone\":\"(254)954-1289\",\"website\":\"demarco.info\",\"company\":{\"name\":\"Keebler LLC\",\"catchPhrase\":\"User-centric fault-tolerant solution\",\"bs\":\"revolutionize end-to-end systems\"}},{\"id\":6,\"name\":\"Mrs. Dennis Schulist\",\"username\":\"Leopoldo_Corkery\",\"email\":\"Karley_Dach@jasper.info\",\"address\":{\"street\":\"Norberto Crossing\",\"suite\":\"Apt. 950\",\"city\":\"South Christy\",\"zipcode\":\"23505-1337\",\"geo\":{\"lat\":\"-71.4197\",\"lng\":\"71.7478\"}},\"phone\":\"1-477-935-8478 x6430\",\"website\":\"ola.org\",\"company\":{\"name\":\"Considine-Lockman\",\"catchPhrase\":\"Synchronised bottom-line interface\",\"bs\":\"e-enable innovative applications\"}},{\"id\":7,\"name\":\"Kurtis Weissnat\",\"username\":\"Elwyn.Skiles\",\"email\":\"Telly.Hoeger@billy.biz\",\"address\":{\"street\":\"Rex Trail\",\"suite\":\"Suite 280\",\"city\":\"Howemouth\",\"zipcode\":\"58804-1099\",\"geo\":{\"lat\":\"24.8918\",\"lng\":\"21.8984\"}},\"phone\":\"210.067.6132\",\"website\":\"elvis.io\",\"company\":{\"name\":\"Johns Group\",\"catchPhrase\":\"Configurable multimedia task-force\",\"bs\":\"generate enterprise e-tailers\"}},{\"id\":8,\"name\":\"Nicholas Runolfsdottir V\",\"username\":\"Maxime_Nienow\",\"email\":\"Sherwood@rosamond.me\",\"address\":{\"street\":\"Ellsworth Summit\",\"suite\":\"Suite 729\",\"city\":\"Aliyaview\",\"zipcode\":\"45169\",\"geo\":{\"lat\":\"-14.3990\",\"lng\":\"-120.7677\"}},\"phone\":\"586.493.6943 x140\",\"website\":\"jacynthe.com\",\"company\":{\"name\":\"Abernathy Group\",\"catchPhrase\":\"Implemented secondary concept\",\"bs\":\"e-enable extensible e-tailers\"}},{\"id\":9,\"name\":\"Glenna Reichert\",\"username\":\"Delphine\",\"email\":\"Chaim_McDermott@dana.io\",\"address\":{\"street\":\"Dayna Park\",\"suite\":\"Suite 449\",\"city\":\"Bartholomebury\",\"zipcode\":\"76495-3109\",\"geo\":{\"lat\":\"24.6463\",\"lng\":\"-168.8889\"}},\"phone\":\"(775)976-6794 x41206\",\"website\":\"conrad.com\",\"company\":{\"name\":\"Yost and Sons\",\"catchPhrase\":\"Switchable contextually-based project\",\"bs\":\"aggregate real-time technologies\"}},{\"id\":10,\"name\":\"Clementina DuBuque\",\"username\":\"Moriah.Stanton\",\"email\":\"Rey.Padberg@karina.biz\",\"address\":{\"street\":\"Kattie Turnpike\",\"suite\":\"Suite 198\",\"city\":\"Lebsackbury\",\"zipcode\":\"31428-2261\",\"geo\":{\"lat\":\"-38.2386\",\"lng\":\"57.2232\"}},\"phone\":\"024-648-3804\",\"website\":\"ambrose.net\",\"company\":{\"name\":\"Hoeger LLC\",\"catchPhrase\":\"Centralized empowering task-force\",\"bs\":\"target end-to-end models\"}}]",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }{.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044876126885888,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/external\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"f0cb7e3f066f8c4e8a6c190ee383b632\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044876163439872,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/external\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"f0cb7e3f066f8c4e8a6c190ee383b632\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044877514564864,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"[{\\\"id\\\":1,\\\"name\\\":\\\"Leanne Graham\\\",\\\"username\\\":\\\"Bret\\\",\\\"email\\\":\\\"Sincere@april.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kulas Light\\\",\\\"suite\\\":\\\"Apt. 556\\\",\\\"city\\\":\\\"Gwenborough\\\",\\\"zipcode\\\":\\\"92998-3874\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-37.3159\\\",\\\"lng\\\":\\\"81.1496\\\"}},\\\"phone\\\":\\\"1-770-736-8031 x56442\\\",\\\"website\\\":\\\"hildegard.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Crona\\\",\\\"catchPhrase\\\":\\\"Multi-layered client-server neural-net\\\",\\\"bs\\\":\\\"harness real-time e-markets\\\"}},{\\\"id\\\":2,\\\"name\\\":\\\"Ervin Howell\\\",\\\"username\\\":\\\"Antonette\\\",\\\"email\\\":\\\"Shanna@melissa.tv\\\",\\\"address\\\":{\\\"street\\\":\\\"Victor Plains\\\",\\\"suite\\\":\\\"Suite 879\\\",\\\"city\\\":\\\"Wisokyburgh\\\",\\\"zipcode\\\":\\\"90566-7771\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-43.9509\\\",\\\"lng\\\":\\\"-34.4618\\\"}},\\\"phone\\\":\\\"010-692-6593 x09125\\\",\\\"website\\\":\\\"anastasia.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Deckow-Crist\\\",\\\"catchPhrase\\\":\\\"Proactive didactic contingency\\\",\\\"bs\\\":\\\"synergize scalable supply-chains\\\"}},{\\\"id\\\":3,\\\"name\\\":\\\"Clementine Bauch\\\",\\\"username\\\":\\\"Samantha\\\",\\\"email\\\":\\\"Nathan@yesenia.net\\\",\\\"address\\\":{\\\"street\\\":\\\"Douglas Extension\\\",\\\"suite\\\":\\\"Suite 847\\\",\\\"city\\\":\\\"McKenziehaven\\\",\\\"zipcode\\\":\\\"59590-4157\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-68.6102\\\",\\\"lng\\\":\\\"-47.0653\\\"}},\\\"phone\\\":\\\"1-463-123-4447\\\",\\\"website\\\":\\\"ramiro.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Jacobson\\\",\\\"catchPhrase\\\":\\\"Face to face bifurcated interface\\\",\\\"bs\\\":\\\"e-enable strategic applications\\\"}},{\\\"id\\\":4,\\\"name\\\":\\\"Patricia Lebsack\\\",\\\"username\\\":\\\"Karianne\\\",\\\"email\\\":\\\"Julianne.OConner@kory.org\\\",\\\"address\\\":{\\\"street\\\":\\\"Hoeger Mall\\\",\\\"suite\\\":\\\"Apt. 692\\\",\\\"city\\\":\\\"South Elvis\\\",\\\"zipcode\\\":\\\"53919-4257\\\",\\\"geo\\\":{\\\"lat\\\":\\\"29.4572\\\",\\\"lng\\\":\\\"-164.2990\\\"}},\\\"phone\\\":\\\"493-170-9623 x156\\\",\\\"website\\\":\\\"kale.biz\\\",\\\"company\\\":{\\\"name\\\":\\\"Robel-Corkery\\\",\\\"catchPhrase\\\":\\\"Multi-tiered zero tolerance productivity\\\",\\\"bs\\\":\\\"transition cutting-edge web services\\\"}},{\\\"id\\\":5,\\\"name\\\":\\\"Chelsey Dietrich\\\",\\\"username\\\":\\\"Kamren\\\",\\\"email\\\":\\\"Lucio_Hettinger@annie.ca\\\",\\\"address\\\":{\\\"street\\\":\\\"Skiles Walks\\\",\\\"suite\\\":\\\"Suite 351\\\",\\\"city\\\":\\\"Roscoeview\\\",\\\"zipcode\\\":\\\"33263\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-31.8129\\\",\\\"lng\\\":\\\"62.5342\\\"}},\\\"phone\\\":\\\"(254)954-1289\\\",\\\"website\\\":\\\"demarco.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Keebler LLC\\\",\\\"catchPhrase\\\":\\\"User-centric fault-tolerant solution\\\",\\\"bs\\\":\\\"revolutionize end-to-end systems\\\"}},{\\\"id\\\":6,\\\"name\\\":\\\"Mrs. Dennis Schulist\\\",\\\"username\\\":\\\"Leopoldo_Corkery\\\",\\\"email\\\":\\\"Karley_Dach@jasper.info\\\",\\\"address\\\":{\\\"street\\\":\\\"Norberto Crossing\\\",\\\"suite\\\":\\\"Apt. 950\\\",\\\"city\\\":\\\"South Christy\\\",\\\"zipcode\\\":\\\"23505-1337\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-71.4197\\\",\\\"lng\\\":\\\"71.7478\\\"}},\\\"phone\\\":\\\"1-477-935-8478 x6430\\\",\\\"website\\\":\\\"ola.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Considine-Lockman\\\",\\\"catchPhrase\\\":\\\"Synchronised bottom-line interface\\\",\\\"bs\\\":\\\"e-enable innovative applications\\\"}},{\\\"id\\\":7,\\\"name\\\":\\\"Kurtis Weissnat\\\",\\\"username\\\":\\\"Elwyn.Skiles\\\",\\\"email\\\":\\\"Telly.Hoeger@billy.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Rex Trail\\\",\\\"suite\\\":\\\"Suite 280\\\",\\\"city\\\":\\\"Howemouth\\\",\\\"zipcode\\\":\\\"58804-1099\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.8918\\\",\\\"lng\\\":\\\"21.8984\\\"}},\\\"phone\\\":\\\"210.067.6132\\\",\\\"website\\\":\\\"elvis.io\\\",\\\"company\\\":{\\\"name\\\":\\\"Johns Group\\\",\\\"catchPhrase\\\":\\\"Configurable multimedia task-force\\\",\\\"bs\\\":\\\"generate enterprise e-tailers\\\"}},{\\\"id\\\":8,\\\"name\\\":\\\"Nicholas Runolfsdottir V\\\",\\\"username\\\":\\\"Maxime_Nienow\\\",\\\"email\\\":\\\"Sherwood@rosamond.me\\\",\\\"address\\\":{\\\"street\\\":\\\"Ellsworth Summit\\\",\\\"suite\\\":\\\"Suite 729\\\",\\\"city\\\":\\\"Aliyaview\\\",\\\"zipcode\\\":\\\"45169\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-14.3990\\\",\\\"lng\\\":\\\"-120.7677\\\"}},\\\"phone\\\":\\\"586.493.6943 x140\\\",\\\"website\\\":\\\"jacynthe.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Abernathy Group\\\",\\\"catchPhrase\\\":\\\"Implemented secondary concept\\\",\\\"bs\\\":\\\"e-enable extensible e-tailers\\\"}},{\\\"id\\\":9,\\\"name\\\":\\\"Glenna Reichert\\\",\\\"username\\\":\\\"Delphine\\\",\\\"email\\\":\\\"Chaim_McDermott@dana.io\\\",\\\"address\\\":{\\\"street\\\":\\\"Dayna Park\\\",\\\"suite\\\":\\\"Suite 449\\\",\\\"city\\\":\\\"Bartholomebury\\\",\\\"zipcode\\\":\\\"76495-3109\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.6463\\\",\\\"lng\\\":\\\"-168.8889\\\"}},\\\"phone\\\":\\\"(775)976-6794 x41206\\\",\\\"website\\\":\\\"conrad.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Yost and Sons\\\",\\\"catchPhrase\\\":\\\"Switchable contextually-based project\\\",\\\"bs\\\":\\\"aggregate real-time technologies\\\"}},{\\\"id\\\":10,\\\"name\\\":\\\"Clementina DuBuque\\\",\\\"username\\\":\\\"Moriah.Stanton\\\",\\\"email\\\":\\\"Rey.Padberg@karina.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kattie Turnpike\\\",\\\"suite\\\":\\\"Suite 198\\\",\\\"city\\\":\\\"Lebsackbury\\\",\\\"zipcode\\\":\\\"31428-2261\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-38.2386\\\",\\\"lng\\\":\\\"57.2232\\\"}},\\\"phone\\\":\\\"024-648-3804\\\",\\\"website\\\":\\\"ambrose.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Hoeger LLC\\\",\\\"catchPhrase\\\":\\\"Centralized empowering task-force\\\",\\\"bs\\\":\\\"target end-to-end models\\\"}}]\",\"trace_id\":\"f0cb7e3f066f8c4e8a6c190ee383b632\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }{.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044877516051968,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"[{\\\"id\\\":1,\\\"name\\\":\\\"Leanne Graham\\\",\\\"username\\\":\\\"Bret\\\",\\\"email\\\":\\\"Sincere@april.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kulas Light\\\",\\\"suite\\\":\\\"Apt. 556\\\",\\\"city\\\":\\\"Gwenborough\\\",\\\"zipcode\\\":\\\"92998-3874\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-37.3159\\\",\\\"lng\\\":\\\"81.1496\\\"}},\\\"phone\\\":\\\"1-770-736-8031 x56442\\\",\\\"website\\\":\\\"hildegard.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Crona\\\",\\\"catchPhrase\\\":\\\"Multi-layered client-server neural-net\\\",\\\"bs\\\":\\\"harness real-time e-markets\\\"}},{\\\"id\\\":2,\\\"name\\\":\\\"Ervin Howell\\\",\\\"username\\\":\\\"Antonette\\\",\\\"email\\\":\\\"Shanna@melissa.tv\\\",\\\"address\\\":{\\\"street\\\":\\\"Victor Plains\\\",\\\"suite\\\":\\\"Suite 879\\\",\\\"city\\\":\\\"Wisokyburgh\\\",\\\"zipcode\\\":\\\"90566-7771\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-43.9509\\\",\\\"lng\\\":\\\"-34.4618\\\"}},\\\"phone\\\":\\\"010-692-6593 x09125\\\",\\\"website\\\":\\\"anastasia.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Deckow-Crist\\\",\\\"catchPhrase\\\":\\\"Proactive didactic contingency\\\",\\\"bs\\\":\\\"synergize scalable supply-chains\\\"}},{\\\"id\\\":3,\\\"name\\\":\\\"Clementine Bauch\\\",\\\"username\\\":\\\"Samantha\\\",\\\"email\\\":\\\"Nathan@yesenia.net\\\",\\\"address\\\":{\\\"street\\\":\\\"Douglas Extension\\\",\\\"suite\\\":\\\"Suite 847\\\",\\\"city\\\":\\\"McKenziehaven\\\",\\\"zipcode\\\":\\\"59590-4157\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-68.6102\\\",\\\"lng\\\":\\\"-47.0653\\\"}},\\\"phone\\\":\\\"1-463-123-4447\\\",\\\"website\\\":\\\"ramiro.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Jacobson\\\",\\\"catchPhrase\\\":\\\"Face to face bifurcated interface\\\",\\\"bs\\\":\\\"e-enable strategic applications\\\"}},{\\\"id\\\":4,\\\"name\\\":\\\"Patricia Lebsack\\\",\\\"username\\\":\\\"Karianne\\\",\\\"email\\\":\\\"Julianne.OConner@kory.org\\\",\\\"address\\\":{\\\"street\\\":\\\"Hoeger Mall\\\",\\\"suite\\\":\\\"Apt. 692\\\",\\\"city\\\":\\\"South Elvis\\\",\\\"zipcode\\\":\\\"53919-4257\\\",\\\"geo\\\":{\\\"lat\\\":\\\"29.4572\\\",\\\"lng\\\":\\\"-164.2990\\\"}},\\\"phone\\\":\\\"493-170-9623 x156\\\",\\\"website\\\":\\\"kale.biz\\\",\\\"company\\\":{\\\"name\\\":\\\"Robel-Corkery\\\",\\\"catchPhrase\\\":\\\"Multi-tiered zero tolerance productivity\\\",\\\"bs\\\":\\\"transition cutting-edge web services\\\"}},{\\\"id\\\":5,\\\"name\\\":\\\"Chelsey Dietrich\\\",\\\"username\\\":\\\"Kamren\\\",\\\"email\\\":\\\"Lucio_Hettinger@annie.ca\\\",\\\"address\\\":{\\\"street\\\":\\\"Skiles Walks\\\",\\\"suite\\\":\\\"Suite 351\\\",\\\"city\\\":\\\"Roscoeview\\\",\\\"zipcode\\\":\\\"33263\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-31.8129\\\",\\\"lng\\\":\\\"62.5342\\\"}},\\\"phone\\\":\\\"(254)954-1289\\\",\\\"website\\\":\\\"demarco.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Keebler LLC\\\",\\\"catchPhrase\\\":\\\"User-centric fault-tolerant solution\\\",\\\"bs\\\":\\\"revolutionize end-to-end systems\\\"}},{\\\"id\\\":6,\\\"name\\\":\\\"Mrs. Dennis Schulist\\\",\\\"username\\\":\\\"Leopoldo_Corkery\\\",\\\"email\\\":\\\"Karley_Dach@jasper.info\\\",\\\"address\\\":{\\\"street\\\":\\\"Norberto Crossing\\\",\\\"suite\\\":\\\"Apt. 950\\\",\\\"city\\\":\\\"South Christy\\\",\\\"zipcode\\\":\\\"23505-1337\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-71.4197\\\",\\\"lng\\\":\\\"71.7478\\\"}},\\\"phone\\\":\\\"1-477-935-8478 x6430\\\",\\\"website\\\":\\\"ola.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Considine-Lockman\\\",\\\"catchPhrase\\\":\\\"Synchronised bottom-line interface\\\",\\\"bs\\\":\\\"e-enable innovative applications\\\"}},{\\\"id\\\":7,\\\"name\\\":\\\"Kurtis Weissnat\\\",\\\"username\\\":\\\"Elwyn.Skiles\\\",\\\"email\\\":\\\"Telly.Hoeger@billy.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Rex Trail\\\",\\\"suite\\\":\\\"Suite 280\\\",\\\"city\\\":\\\"Howemouth\\\",\\\"zipcode\\\":\\\"58804-1099\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.8918\\\",\\\"lng\\\":\\\"21.8984\\\"}},\\\"phone\\\":\\\"210.067.6132\\\",\\\"website\\\":\\\"elvis.io\\\",\\\"company\\\":{\\\"name\\\":\\\"Johns Group\\\",\\\"catchPhrase\\\":\\\"Configurable multimedia task-force\\\",\\\"bs\\\":\\\"generate enterprise e-tailers\\\"}},{\\\"id\\\":8,\\\"name\\\":\\\"Nicholas Runolfsdottir V\\\",\\\"username\\\":\\\"Maxime_Nienow\\\",\\\"email\\\":\\\"Sherwood@rosamond.me\\\",\\\"address\\\":{\\\"street\\\":\\\"Ellsworth Summit\\\",\\\"suite\\\":\\\"Suite 729\\\",\\\"city\\\":\\\"Aliyaview\\\",\\\"zipcode\\\":\\\"45169\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-14.3990\\\",\\\"lng\\\":\\\"-120.7677\\\"}},\\\"phone\\\":\\\"586.493.6943 x140\\\",\\\"website\\\":\\\"jacynthe.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Abernathy Group\\\",\\\"catchPhrase\\\":\\\"Implemented secondary concept\\\",\\\"bs\\\":\\\"e-enable extensible e-tailers\\\"}},{\\\"id\\\":9,\\\"name\\\":\\\"Glenna Reichert\\\",\\\"username\\\":\\\"Delphine\\\",\\\"email\\\":\\\"Chaim_McDermott@dana.io\\\",\\\"address\\\":{\\\"street\\\":\\\"Dayna Park\\\",\\\"suite\\\":\\\"Suite 449\\\",\\\"city\\\":\\\"Bartholomebury\\\",\\\"zipcode\\\":\\\"76495-3109\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.6463\\\",\\\"lng\\\":\\\"-168.8889\\\"}},\\\"phone\\\":\\\"(775)976-6794 x41206\\\",\\\"website\\\":\\\"conrad.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Yost and Sons\\\",\\\"catchPhrase\\\":\\\"Switchable contextually-based project\\\",\\\"bs\\\":\\\"aggregate real-time technologies\\\"}},{\\\"id\\\":10,\\\"name\\\":\\\"Clementina DuBuque\\\",\\\"username\\\":\\\"Moriah.Stanton\\\",\\\"email\\\":\\\"Rey.Padberg@karina.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kattie Turnpike\\\",\\\"suite\\\":\\\"Suite 198\\\",\\\"city\\\":\\\"Lebsackbury\\\",\\\"zipcode\\\":\\\"31428-2261\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-38.2386\\\",\\\"lng\\\":\\\"57.2232\\\"}},\\\"phone\\\":\\\"024-648-3804\\\",\\\"website\\\":\\\"ambrose.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Hoeger LLC\\\",\\\"catchPhrase\\\":\\\"Centralized empowering task-force\\\",\\\"bs\\\":\\\"target end-to-end models\\\"}}]\",\"trace_id\":\"f0cb7e3f066f8c4e8a6c190ee383b632\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "GET",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8c64bfd1e6e1c0d4",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "8a19e489b18b4457",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044876180256996,.  
+
+   WARN  "end": 1754044877486264654,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.full": "https:\/\/jsonplaceholder.typicode.com\/users",.  
+
+   WARN  "url.path": "\/users",.  
+
+   WARN  "url.scheme": "https",.  
+
+   WARN  "server.address": "jsonplaceholder.typicode.com",.  
+
+   WARN  "server.port": "",.  
+
+   WARN  "http.response.status_code": 200,.  
+
+   WARN  "http.response.body.size": "".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "7f76d25dbf302d21",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "8a19e489b18b4457",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044876162956018,.  
+
+   WARN  "end": 1754044877514767720,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "86948ef7d33c8f4d",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "8a19e489b18b4457",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044876114982836,.  
+
+   WARN  "end": 1754044877516071351,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "GET \/api\/external\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "f0cb7e3f066f8c4e8a6c190ee383b632",.  
+
+   WARN  "span_id": "8a19e489b18b4457",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044875970549986,.  
+
+   WARN  "end": 1754044877516873487,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/external\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "47252",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/external\/people",.  
+
+   WARN  "http.response.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache miss",.  
+
+   WARN  "timestamp": 1754044876157936069,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044877515364948,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:15 ................................................... ~ 2s
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044882600402176,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "34095184a8ae8453",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"38ce94ab63d66865a1901e751d3004da\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044882604777984,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "34095184a8ae8453",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"38ce94ab63d66865a1901e751d3004da\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044882697243904,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "34095184a8ae8453",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[]}\",\"trace_id\":\"38ce94ab63d66865a1901e751d3004da\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044882697990912,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "34095184a8ae8453",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[]}\",\"trace_id\":\"38ce94ab63d66865a1901e751d3004da\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "sql SELECT",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "e8d9b91554bee8ec",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "34095184a8ae8453",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044882650237952,.  
+
+   WARN  "end": 1754044882682447872,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "db.system": "pgsql",.  
+
+   WARN  "db.name": "test_crud",.  
+
+   WARN  "db.operation": "SELECT",.  
+
+   WARN  "db.user": "root",.  
+
+   WARN  "db.statement": "select * from \"people\"".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "44e3aedfb712c92f",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "34095184a8ae8453",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044882604039840,.  
+
+   WARN  "end": 1754044882697275903,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "d20c7b19f82bb332",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "34095184a8ae8453",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044882598362495,.  
+
+   WARN  "end": 1754044882698012374,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "GET \/api\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "38ce94ab63d66865a1901e751d3004da",.  
+
+   WARN  "span_id": "34095184a8ae8453",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044882583889904,.  
+
+   WARN  "end": 1754044882698181249,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "56156",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/people",.  
+
+   WARN  "http.response.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044882602804800,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044882697607593,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:22 ................................................... ~ 0s
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044887749206016,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "758dee204da69981",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"c8f8306f91c71c8cfc772707db9af238\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044887751553024,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "758dee204da69981",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"c8f8306f91c71c8cfc772707db9af238\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044887772992000,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "758dee204da69981",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[]}\",\"trace_id\":\"c8f8306f91c71c8cfc772707db9af238\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044887773529088,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "758dee204da69981",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[]}\",\"trace_id\":\"c8f8306f91c71c8cfc772707db9af238\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "sql SELECT",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "cb9f1c820ce2ff0a",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "758dee204da69981",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044887752237056,.  
+
+   WARN  "end": 1754044887771527168,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "db.system": "pgsql",.  
+
+   WARN  "db.name": "test_crud",.  
+
+   WARN  "db.operation": "SELECT",.  
+
+   WARN  "db.user": "root",.  
+
+   WARN  "db.statement": "select * from \"people\"".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "bfb3cb02c24dcbcc",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "758dee204da69981",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044887751162688,.  
+
+   WARN  "end": 1754044887773009807,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "eb79c337ea3fbef2",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "758dee204da69981",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044887747829623,.  
+
+   WARN  "end": 1754044887773547921,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "GET \/api\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "c8f8306f91c71c8cfc772707db9af238",.  
+
+   WARN  "span_id": "758dee204da69981",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044887734910919,.  
+
+   WARN  "end": 1754044887773689795,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "56172",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/people",.  
+
+   WARN  "http.response.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044887750287193,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044887773190377,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:27 ................................................... ~ 0s
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044892810297088,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"POST\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"request_data\":{\"name\":\"Grace\",\"age\":23},\"trace_id\":\"db1a5830097b29df179833fed251c4ce\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044892813292032,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"POST\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"request_data\":{\"name\":\"Grace\",\"age\":23},\"trace_id\":\"db1a5830097b29df179833fed251c4ce\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044892852859904,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":201,\"response_data\":\"{\\\"data\\\":{\\\"id\\\":1,\\\"name\\\":\\\"Grace\\\",\\\"age\\\":23,\\\"created_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\",\\\"updated_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\"}}\",\"trace_id\":\"db1a5830097b29df179833fed251c4ce\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044892853248000,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":201,\"response_data\":\"{\\\"data\\\":{\\\"id\\\":1,\\\"name\\\":\\\"Grace\\\",\\\"age\\\":23,\\\"created_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\",\\\"updated_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\"}}\",\"trace_id\":\"db1a5830097b29df179833fed251c4ce\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "sql INSERT",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "c7ac93e2fca8fc91",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044892835302912,.  
+
+   WARN  "end": 1754044892851393024,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "db.system": "pgsql",.  
+
+   WARN  "db.name": "test_crud",.  
+
+   WARN  "db.operation": "INSERT",.  
+
+   WARN  "db.user": "root",.  
+
+   WARN  "db.statement": "insert into \"people\" (\"name\", \"age\", \"updated_at\", \"created_at\") values (?, ?, ?, ?) returning \"id\"".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "43d870e0c845d1c6",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044892812971126,.  
+
+   WARN  "end": 1754044892852873899,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "POST",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 201.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "ccb0d2c545e9e1f9",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044892808741683,.  
+
+   WARN  "end": 1754044892853257063,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "POST",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 201.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "POST \/api\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "db1a5830097b29df179833fed251c4ce",.  
+
+   WARN  "span_id": "e2638dfaa9a6836f",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044892801636784,.  
+
+   WARN  "end": 1754044892853353444,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.request.method": "POST",.  
+
+   WARN  "http.request.body.size": "28",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "59964",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/people",.  
+
+   WARN  "http.response.status_code": 201.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044892812246052,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044892853030680,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:32 ................................................... ~ 0s
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044897922644992,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "73e86abf7630849c",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"a4000c09c13ee6dab235184cf73672cb\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044897927820800,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "73e86abf7630849c",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"a4000c09c13ee6dab235184cf73672cb\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044897965688064,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "73e86abf7630849c",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[{\\\"id\\\":1,\\\"name\\\":\\\"Grace\\\",\\\"age\\\":23,\\\"created_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\",\\\"updated_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\"}]}\",\"trace_id\":\"a4000c09c13ee6dab235184cf73672cb\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044897966396928,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "73e86abf7630849c",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[{\\\"id\\\":1,\\\"name\\\":\\\"Grace\\\",\\\"age\\\":23,\\\"created_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\",\\\"updated_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\"}]}\",\"trace_id\":\"a4000c09c13ee6dab235184cf73672cb\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "sql SELECT",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "e6010a34a1cb0027",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "73e86abf7630849c",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044897929764864,.  
+
+   WARN  "end": 1754044897962534912,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "db.system": "pgsql",.  
+
+   WARN  "db.name": "test_crud",.  
+
+   WARN  "db.operation": "SELECT",.  
+
+   WARN  "db.user": "root",.  
+
+   WARN  "db.statement": "select * from \"people\"".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "f354666dce491ef1",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "73e86abf7630849c",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044897926941363,.  
+
+   WARN  "end": 1754044897965713796,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "63ae8e7f64d34188",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "73e86abf7630849c",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044897919784365,.  
+
+   WARN  "end": 1754044897966415982,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "GET \/api\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a4000c09c13ee6dab235184cf73672cb",.  
+
+   WARN  "span_id": "73e86abf7630849c",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044897903880697,.  
+
+   WARN  "end": 1754044897966575164,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "59974",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/people",.  
+
+   WARN  "http.response.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044897925105961,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044897965987276,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:37 ................................................... ~ 0s
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044903043701760,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "4041e0ca7933b163",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"a81094ccabedaf34aabe0fc37b47e2ed\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044903046361856,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "4041e0ca7933b163",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"a81094ccabedaf34aabe0fc37b47e2ed\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044903065545984,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "4041e0ca7933b163",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[{\\\"id\\\":1,\\\"name\\\":\\\"Grace\\\",\\\"age\\\":23,\\\"created_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\",\\\"updated_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\"}]}\",\"trace_id\":\"a81094ccabedaf34aabe0fc37b47e2ed\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044903065871872,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "4041e0ca7933b163",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"{\\\"data\\\":[{\\\"id\\\":1,\\\"name\\\":\\\"Grace\\\",\\\"age\\\":23,\\\"created_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\",\\\"updated_at\\\":\\\"2025-08-01T10:41:32.000000Z\\\"}]}\",\"trace_id\":\"a81094ccabedaf34aabe0fc37b47e2ed\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "sql SELECT",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "1647d9de6d17c994",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "4041e0ca7933b163",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044903046929920,.  
+
+   WARN  "end": 1754044903064140032,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "db.system": "pgsql",.  
+
+   WARN  "db.name": "test_crud",.  
+
+   WARN  "db.operation": "SELECT",.  
+
+   WARN  "db.user": "root",.  
+
+   WARN  "db.statement": "select * from \"people\"".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "2aff4c73cd8d7108",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "4041e0ca7933b163",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044903046032142,.  
+
+   WARN  "end": 1754044903065557400,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "71e3f70610e53f40",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "4041e0ca7933b163",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044903041170488,.  
+
+   WARN  "end": 1754044903065878440,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "GET \/api\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "a81094ccabedaf34aabe0fc37b47e2ed",.  
+
+   WARN  "span_id": "4041e0ca7933b163",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044903025834985,.  
+
+   WARN  "end": 1754044903065960435,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/people",.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "55152",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/people",.  
+
+   WARN  "http.response.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044903045268953,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044903065675422,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:43 ................................................... ~ 0s
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "laravel",.  
+
+   WARN  "version": "1.0.0",.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": null,.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044908104197,.  
+
+   WARN  "observed_timestamp": 1754044908104416000,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "method": "GET",.  
+
+   WARN  "ip": "172.18.0.1",.  
+
+   WARN  "user_agent": "curl\/8.5.0",.  
+
+   WARN  "request_data": [],.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044908105861,.  
+
+   WARN  "observed_timestamp": 1754044908105953024,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "method": "GET",.  
+
+   WARN  "ip": "172.18.0.1",.  
+
+   WARN  "user_agent": "curl\/8.5.0",.  
+
+   WARN  "request_data": [],.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044909176289,.  
+
+   WARN  "observed_timestamp": 1754044909176903936,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "status_code": 200,.  
+
+   WARN  "response_data": "[{\"id\":1,\"name\":\"Leanne Graham\",\"username\":\"Bret\",\"email\":\"Sincere@april.biz\",\"address\":{\"street\":\"Kulas Light\",\"suite\":\"Apt. 556\",\"city\":\"Gwenborough\",\"zipcode\":\"92998-3874\",\"geo\":{\"lat\":\"-37.3159\",\"lng\":\"81.1496\"}},\"phone\":\"1-770-736-8031 x56442\",\"website\":\"hildegard.org\",\"company\":{\"name\":\"Romaguera-Crona\",\"catchPhrase\":\"Multi-layered client-server neural-net\",\"bs\":\"harness real-time e-markets\"}},{\"id\":2,\"name\":\"Ervin Howell\",\"username\":\"Antonette\",\"email\":\"Shanna@melissa.tv\",\"address\":{\"street\":\"Victor Plains\",\"suite\":\"Suite 879\",\"city\":\"Wisokyburgh\",\"zipcode\":\"90566-7771\",\"geo\":{\"lat\":\"-43.9509\",\"lng\":\"-34.4618\"}},\"phone\":\"010-692-6593 x09125\",\"website\":\"anastasia.net\",\"company\":{\"name\":\"Deckow-Crist\",\"catchPhrase\":\"Proactive didactic contingency\",\"bs\":\"synergize scalable supply-chains\"}},{\"id\":3,\"name\":\"Clementine Bauch\",\"username\":\"Samantha\",\"email\":\"Nathan@yesenia.net\",\"address\":{\"street\":\"Douglas Extension\",\"suite\":\"Suite 847\",\"city\":\"McKenziehaven\",\"zipcode\":\"59590-4157\",\"geo\":{\"lat\":\"-68.6102\",\"lng\":\"-47.0653\"}},\"phone\":\"1-463-123-4447\",\"website\":\"ramiro.info\",\"company\":{\"name\":\"Romaguera-Jacobson\",\"catchPhrase\":\"Face to face bifurcated interface\",\"bs\":\"e-enable strategic applications\"}},{\"id\":4,\"name\":\"Patricia Lebsack\",\"username\":\"Karianne\",\"email\":\"Julianne.OConner@kory.org\",\"address\":{\"street\":\"Hoeger Mall\",\"suite\":\"Apt. 692\",\"city\":\"South Elvis\",\"zipcode\":\"53919-4257\",\"geo\":{\"lat\":\"29.4572\",\"lng\":\"-164.2990\"}},\"phone\":\"493-170-9623 x156\",\"website\":\"kale.biz\",\"company\":{\"name\":\"Robel-Corkery\",\"catchPhrase\":\"Multi-tiered zero tolerance productivity\",\"bs\":\"transition cutting-edge web services\"}},{\"id\":5,\"name\":\"Chelsey Dietrich\",\"username\":\"Kamren\",\"email\":\"Lucio_Hettinger@annie.ca\",\"address\":{\"street\":\"Skiles Walks\",\"suite\":\"Suite 351\",\"city\":\"Roscoeview\",\"zipcode\":\"33263\",\"geo\":{\"lat\":\"-31.8129\",\"lng\":\"62.5342\"}},\"phone\":\"(254)954-1289\",\"website\":\"demarco.info\",\"company\":{\"name\":\"Keebler LLC\",\"catchPhrase\":\"User-centric fault-tolerant solution\",\"bs\":\"revolutionize end-to-end systems\"}},{\"id\":6,\"name\":\"Mrs. Dennis Schulist\",\"username\":\"Leopoldo_Corkery\",\"email\":\"Karley_Dach@jasper.info\",\"address\":{\"street\":\"Norberto Crossing\",\"suite\":\"Apt. 950\",\"city\":\"South Christy\",\"zipcode\":\"23505-1337\",\"geo\":{\"lat\":\"-71.4197\",\"lng\":\"71.7478\"}},\"phone\":\"1-477-935-8478 x6430\",\"website\":\"ola.org\",\"company\":{\"name\":\"Considine-Lockman\",\"catchPhrase\":\"Synchronised bottom-line interface\",\"bs\":\"e-enable innovative applications\"}},{\"id\":7,\"name\":\"Kurtis Weissnat\",\"username\":\"Elwyn.Skiles\",\"email\":\"Telly.Hoeger@billy.biz\",\"address\":{\"street\":\"Rex Trail\",\"suite\":\"Suite 280\",\"city\":\"Howemouth\",\"zipcode\":\"58804-1099\",\"geo\":{\"lat\":\"24.8918\",\"lng\":\"21.8984\"}},\"phone\":\"210.067.6132\",\"website\":\"elvis.io\",\"company\":{\"name\":\"Johns Group\",\"catchPhrase\":\"Configurable multimedia task-force\",\"bs\":\"generate enterprise e-tailers\"}},{\"id\":8,\"name\":\"Nicholas Runolfsdottir V\",\"username\":\"Maxime_Nienow\",\"email\":\"Sherwood@rosamond.me\",\"address\":{\"street\":\"Ellsworth Summit\",\"suite\":\"Suite 729\",\"city\":\"Aliyaview\",\"zipcode\":\"45169\",\"geo\":{\"lat\":\"-14.3990\",\"lng\":\"-120.7677\"}},\"phone\":\"586.493.6943 x140\",\"website\":\"jacynthe.com\",\"company\":{\"name\":\"Abernathy Group\",\"catchPhrase\":\"Implemented secondary concept\",\"bs\":\"e-enable extensible e-tailers\"}},{\"id\":9,\"name\":\"Glenna Reichert\",\"username\":\"Delphine\",\"email\":\"Chaim_McDermott@dana.io\",\"address\":{\"street\":\"Dayna Park\",\"suite\":\"Suite 449\",\"city\":\"Bartholomebury\",\"zipcode\":\"76495-3109\",\"geo\":{\"lat\":\"24.6463\",\"lng\":\"-168.8889\"}},\"phone\":\"(775)976-6794 x41206\",\"website\":\"conrad.com\",\"company\":{\"name\":\"Yost and Sons\",\"catchPhrase\":\"Switchable contextually-based project\",\"bs\":\"aggregate real-time technologies\"}},{\"id\":10,\"name\":\"Clementina DuBuque\",\"username\":\"Moriah.Stanton\",\"email\":\"Rey.Padberg@karina.biz\",\"address\":{\"street\":\"Kattie Turnpike\",\"suite\":\"Suite 198\",\"city\":\"Lebsackbury\",\"zipcode\":\"31428-2261\",\"geo\":{\"lat\":\"-38.2386\",\"lng\":\"57.2232\"}},\"phone\":\"024-648-3804\",\"website\":\"ambrose.net\",\"company\":{\"name\":\"Hoeger LLC\",\"catchPhrase\":\"Centralized empowering task-force\",\"bs\":\"target end-to-end models\"}}]",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }{.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044908104547072,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/external\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"22497f7f472f69851f80effb6b7bfa9c\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044908106002176,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/external\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"22497f7f472f69851f80effb6b7bfa9c\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044909177740032,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"[{\\\"id\\\":1,\\\"name\\\":\\\"Leanne Graham\\\",\\\"username\\\":\\\"Bret\\\",\\\"email\\\":\\\"Sincere@april.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kulas Light\\\",\\\"suite\\\":\\\"Apt. 556\\\",\\\"city\\\":\\\"Gwenborough\\\",\\\"zipcode\\\":\\\"92998-3874\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-37.3159\\\",\\\"lng\\\":\\\"81.1496\\\"}},\\\"phone\\\":\\\"1-770-736-8031 x56442\\\",\\\"website\\\":\\\"hildegard.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Crona\\\",\\\"catchPhrase\\\":\\\"Multi-layered client-server neural-net\\\",\\\"bs\\\":\\\"harness real-time e-markets\\\"}},{\\\"id\\\":2,\\\"name\\\":\\\"Ervin Howell\\\",\\\"username\\\":\\\"Antonette\\\",\\\"email\\\":\\\"Shanna@melissa.tv\\\",\\\"address\\\":{\\\"street\\\":\\\"Victor Plains\\\",\\\"suite\\\":\\\"Suite 879\\\",\\\"city\\\":\\\"Wisokyburgh\\\",\\\"zipcode\\\":\\\"90566-7771\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-43.9509\\\",\\\"lng\\\":\\\"-34.4618\\\"}},\\\"phone\\\":\\\"010-692-6593 x09125\\\",\\\"website\\\":\\\"anastasia.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Deckow-Crist\\\",\\\"catchPhrase\\\":\\\"Proactive didactic contingency\\\",\\\"bs\\\":\\\"synergize scalable supply-chains\\\"}},{\\\"id\\\":3,\\\"name\\\":\\\"Clementine Bauch\\\",\\\"username\\\":\\\"Samantha\\\",\\\"email\\\":\\\"Nathan@yesenia.net\\\",\\\"address\\\":{\\\"street\\\":\\\"Douglas Extension\\\",\\\"suite\\\":\\\"Suite 847\\\",\\\"city\\\":\\\"McKenziehaven\\\",\\\"zipcode\\\":\\\"59590-4157\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-68.6102\\\",\\\"lng\\\":\\\"-47.0653\\\"}},\\\"phone\\\":\\\"1-463-123-4447\\\",\\\"website\\\":\\\"ramiro.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Jacobson\\\",\\\"catchPhrase\\\":\\\"Face to face bifurcated interface\\\",\\\"bs\\\":\\\"e-enable strategic applications\\\"}},{\\\"id\\\":4,\\\"name\\\":\\\"Patricia Lebsack\\\",\\\"username\\\":\\\"Karianne\\\",\\\"email\\\":\\\"Julianne.OConner@kory.org\\\",\\\"address\\\":{\\\"street\\\":\\\"Hoeger Mall\\\",\\\"suite\\\":\\\"Apt. 692\\\",\\\"city\\\":\\\"South Elvis\\\",\\\"zipcode\\\":\\\"53919-4257\\\",\\\"geo\\\":{\\\"lat\\\":\\\"29.4572\\\",\\\"lng\\\":\\\"-164.2990\\\"}},\\\"phone\\\":\\\"493-170-9623 x156\\\",\\\"website\\\":\\\"kale.biz\\\",\\\"company\\\":{\\\"name\\\":\\\"Robel-Corkery\\\",\\\"catchPhrase\\\":\\\"Multi-tiered zero tolerance productivity\\\",\\\"bs\\\":\\\"transition cutting-edge web services\\\"}},{\\\"id\\\":5,\\\"name\\\":\\\"Chelsey Dietrich\\\",\\\"username\\\":\\\"Kamren\\\",\\\"email\\\":\\\"Lucio_Hettinger@annie.ca\\\",\\\"address\\\":{\\\"street\\\":\\\"Skiles Walks\\\",\\\"suite\\\":\\\"Suite 351\\\",\\\"city\\\":\\\"Roscoeview\\\",\\\"zipcode\\\":\\\"33263\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-31.8129\\\",\\\"lng\\\":\\\"62.5342\\\"}},\\\"phone\\\":\\\"(254)954-1289\\\",\\\"website\\\":\\\"demarco.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Keebler LLC\\\",\\\"catchPhrase\\\":\\\"User-centric fault-tolerant solution\\\",\\\"bs\\\":\\\"revolutionize end-to-end systems\\\"}},{\\\"id\\\":6,\\\"name\\\":\\\"Mrs. Dennis Schulist\\\",\\\"username\\\":\\\"Leopoldo_Corkery\\\",\\\"email\\\":\\\"Karley_Dach@jasper.info\\\",\\\"address\\\":{\\\"street\\\":\\\"Norberto Crossing\\\",\\\"suite\\\":\\\"Apt. 950\\\",\\\"city\\\":\\\"South Christy\\\",\\\"zipcode\\\":\\\"23505-1337\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-71.4197\\\",\\\"lng\\\":\\\"71.7478\\\"}},\\\"phone\\\":\\\"1-477-935-8478 x6430\\\",\\\"website\\\":\\\"ola.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Considine-Lockman\\\",\\\"catchPhrase\\\":\\\"Synchronised bottom-line interface\\\",\\\"bs\\\":\\\"e-enable innovative applications\\\"}},{\\\"id\\\":7,\\\"name\\\":\\\"Kurtis Weissnat\\\",\\\"username\\\":\\\"Elwyn.Skiles\\\",\\\"email\\\":\\\"Telly.Hoeger@billy.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Rex Trail\\\",\\\"suite\\\":\\\"Suite 280\\\",\\\"city\\\":\\\"Howemouth\\\",\\\"zipcode\\\":\\\"58804-1099\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.8918\\\",\\\"lng\\\":\\\"21.8984\\\"}},\\\"phone\\\":\\\"210.067.6132\\\",\\\"website\\\":\\\"elvis.io\\\",\\\"company\\\":{\\\"name\\\":\\\"Johns Group\\\",\\\"catchPhrase\\\":\\\"Configurable multimedia task-force\\\",\\\"bs\\\":\\\"generate enterprise e-tailers\\\"}},{\\\"id\\\":8,\\\"name\\\":\\\"Nicholas Runolfsdottir V\\\",\\\"username\\\":\\\"Maxime_Nienow\\\",\\\"email\\\":\\\"Sherwood@rosamond.me\\\",\\\"address\\\":{\\\"street\\\":\\\"Ellsworth Summit\\\",\\\"suite\\\":\\\"Suite 729\\\",\\\"city\\\":\\\"Aliyaview\\\",\\\"zipcode\\\":\\\"45169\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-14.3990\\\",\\\"lng\\\":\\\"-120.7677\\\"}},\\\"phone\\\":\\\"586.493.6943 x140\\\",\\\"website\\\":\\\"jacynthe.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Abernathy Group\\\",\\\"catchPhrase\\\":\\\"Implemented secondary concept\\\",\\\"bs\\\":\\\"e-enable extensible e-tailers\\\"}},{\\\"id\\\":9,\\\"name\\\":\\\"Glenna Reichert\\\",\\\"username\\\":\\\"Delphine\\\",\\\"email\\\":\\\"Chaim_McDermott@dana.io\\\",\\\"address\\\":{\\\"street\\\":\\\"Dayna Park\\\",\\\"suite\\\":\\\"Suite 449\\\",\\\"city\\\":\\\"Bartholomebury\\\",\\\"zipcode\\\":\\\"76495-3109\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.6463\\\",\\\"lng\\\":\\\"-168.8889\\\"}},\\\"phone\\\":\\\"(775)976-6794 x41206\\\",\\\"website\\\":\\\"conrad.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Yost and Sons\\\",\\\"catchPhrase\\\":\\\"Switchable contextually-based project\\\",\\\"bs\\\":\\\"aggregate real-time technologies\\\"}},{\\\"id\\\":10,\\\"name\\\":\\\"Clementina DuBuque\\\",\\\"username\\\":\\\"Moriah.Stanton\\\",\\\"email\\\":\\\"Rey.Padberg@karina.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kattie Turnpike\\\",\\\"suite\\\":\\\"Suite 198\\\",\\\"city\\\":\\\"Lebsackbury\\\",\\\"zipcode\\\":\\\"31428-2261\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-38.2386\\\",\\\"lng\\\":\\\"57.2232\\\"}},\\\"phone\\\":\\\"024-648-3804\\\",\\\"website\\\":\\\"ambrose.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Hoeger LLC\\\",\\\"catchPhrase\\\":\\\"Centralized empowering task-force\\\",\\\"bs\\\":\\\"target end-to-end models\\\"}}]\",\"trace_id\":\"22497f7f472f69851f80effb6b7bfa9c\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }{.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044909179516928,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"[{\\\"id\\\":1,\\\"name\\\":\\\"Leanne Graham\\\",\\\"username\\\":\\\"Bret\\\",\\\"email\\\":\\\"Sincere@april.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kulas Light\\\",\\\"suite\\\":\\\"Apt. 556\\\",\\\"city\\\":\\\"Gwenborough\\\",\\\"zipcode\\\":\\\"92998-3874\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-37.3159\\\",\\\"lng\\\":\\\"81.1496\\\"}},\\\"phone\\\":\\\"1-770-736-8031 x56442\\\",\\\"website\\\":\\\"hildegard.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Crona\\\",\\\"catchPhrase\\\":\\\"Multi-layered client-server neural-net\\\",\\\"bs\\\":\\\"harness real-time e-markets\\\"}},{\\\"id\\\":2,\\\"name\\\":\\\"Ervin Howell\\\",\\\"username\\\":\\\"Antonette\\\",\\\"email\\\":\\\"Shanna@melissa.tv\\\",\\\"address\\\":{\\\"street\\\":\\\"Victor Plains\\\",\\\"suite\\\":\\\"Suite 879\\\",\\\"city\\\":\\\"Wisokyburgh\\\",\\\"zipcode\\\":\\\"90566-7771\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-43.9509\\\",\\\"lng\\\":\\\"-34.4618\\\"}},\\\"phone\\\":\\\"010-692-6593 x09125\\\",\\\"website\\\":\\\"anastasia.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Deckow-Crist\\\",\\\"catchPhrase\\\":\\\"Proactive didactic contingency\\\",\\\"bs\\\":\\\"synergize scalable supply-chains\\\"}},{\\\"id\\\":3,\\\"name\\\":\\\"Clementine Bauch\\\",\\\"username\\\":\\\"Samantha\\\",\\\"email\\\":\\\"Nathan@yesenia.net\\\",\\\"address\\\":{\\\"street\\\":\\\"Douglas Extension\\\",\\\"suite\\\":\\\"Suite 847\\\",\\\"city\\\":\\\"McKenziehaven\\\",\\\"zipcode\\\":\\\"59590-4157\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-68.6102\\\",\\\"lng\\\":\\\"-47.0653\\\"}},\\\"phone\\\":\\\"1-463-123-4447\\\",\\\"website\\\":\\\"ramiro.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Jacobson\\\",\\\"catchPhrase\\\":\\\"Face to face bifurcated interface\\\",\\\"bs\\\":\\\"e-enable strategic applications\\\"}},{\\\"id\\\":4,\\\"name\\\":\\\"Patricia Lebsack\\\",\\\"username\\\":\\\"Karianne\\\",\\\"email\\\":\\\"Julianne.OConner@kory.org\\\",\\\"address\\\":{\\\"street\\\":\\\"Hoeger Mall\\\",\\\"suite\\\":\\\"Apt. 692\\\",\\\"city\\\":\\\"South Elvis\\\",\\\"zipcode\\\":\\\"53919-4257\\\",\\\"geo\\\":{\\\"lat\\\":\\\"29.4572\\\",\\\"lng\\\":\\\"-164.2990\\\"}},\\\"phone\\\":\\\"493-170-9623 x156\\\",\\\"website\\\":\\\"kale.biz\\\",\\\"company\\\":{\\\"name\\\":\\\"Robel-Corkery\\\",\\\"catchPhrase\\\":\\\"Multi-tiered zero tolerance productivity\\\",\\\"bs\\\":\\\"transition cutting-edge web services\\\"}},{\\\"id\\\":5,\\\"name\\\":\\\"Chelsey Dietrich\\\",\\\"username\\\":\\\"Kamren\\\",\\\"email\\\":\\\"Lucio_Hettinger@annie.ca\\\",\\\"address\\\":{\\\"street\\\":\\\"Skiles Walks\\\",\\\"suite\\\":\\\"Suite 351\\\",\\\"city\\\":\\\"Roscoeview\\\",\\\"zipcode\\\":\\\"33263\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-31.8129\\\",\\\"lng\\\":\\\"62.5342\\\"}},\\\"phone\\\":\\\"(254)954-1289\\\",\\\"website\\\":\\\"demarco.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Keebler LLC\\\",\\\"catchPhrase\\\":\\\"User-centric fault-tolerant solution\\\",\\\"bs\\\":\\\"revolutionize end-to-end systems\\\"}},{\\\"id\\\":6,\\\"name\\\":\\\"Mrs. Dennis Schulist\\\",\\\"username\\\":\\\"Leopoldo_Corkery\\\",\\\"email\\\":\\\"Karley_Dach@jasper.info\\\",\\\"address\\\":{\\\"street\\\":\\\"Norberto Crossing\\\",\\\"suite\\\":\\\"Apt. 950\\\",\\\"city\\\":\\\"South Christy\\\",\\\"zipcode\\\":\\\"23505-1337\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-71.4197\\\",\\\"lng\\\":\\\"71.7478\\\"}},\\\"phone\\\":\\\"1-477-935-8478 x6430\\\",\\\"website\\\":\\\"ola.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Considine-Lockman\\\",\\\"catchPhrase\\\":\\\"Synchronised bottom-line interface\\\",\\\"bs\\\":\\\"e-enable innovative applications\\\"}},{\\\"id\\\":7,\\\"name\\\":\\\"Kurtis Weissnat\\\",\\\"username\\\":\\\"Elwyn.Skiles\\\",\\\"email\\\":\\\"Telly.Hoeger@billy.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Rex Trail\\\",\\\"suite\\\":\\\"Suite 280\\\",\\\"city\\\":\\\"Howemouth\\\",\\\"zipcode\\\":\\\"58804-1099\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.8918\\\",\\\"lng\\\":\\\"21.8984\\\"}},\\\"phone\\\":\\\"210.067.6132\\\",\\\"website\\\":\\\"elvis.io\\\",\\\"company\\\":{\\\"name\\\":\\\"Johns Group\\\",\\\"catchPhrase\\\":\\\"Configurable multimedia task-force\\\",\\\"bs\\\":\\\"generate enterprise e-tailers\\\"}},{\\\"id\\\":8,\\\"name\\\":\\\"Nicholas Runolfsdottir V\\\",\\\"username\\\":\\\"Maxime_Nienow\\\",\\\"email\\\":\\\"Sherwood@rosamond.me\\\",\\\"address\\\":{\\\"street\\\":\\\"Ellsworth Summit\\\",\\\"suite\\\":\\\"Suite 729\\\",\\\"city\\\":\\\"Aliyaview\\\",\\\"zipcode\\\":\\\"45169\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-14.3990\\\",\\\"lng\\\":\\\"-120.7677\\\"}},\\\"phone\\\":\\\"586.493.6943 x140\\\",\\\"website\\\":\\\"jacynthe.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Abernathy Group\\\",\\\"catchPhrase\\\":\\\"Implemented secondary concept\\\",\\\"bs\\\":\\\"e-enable extensible e-tailers\\\"}},{\\\"id\\\":9,\\\"name\\\":\\\"Glenna Reichert\\\",\\\"username\\\":\\\"Delphine\\\",\\\"email\\\":\\\"Chaim_McDermott@dana.io\\\",\\\"address\\\":{\\\"street\\\":\\\"Dayna Park\\\",\\\"suite\\\":\\\"Suite 449\\\",\\\"city\\\":\\\"Bartholomebury\\\",\\\"zipcode\\\":\\\"76495-3109\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.6463\\\",\\\"lng\\\":\\\"-168.8889\\\"}},\\\"phone\\\":\\\"(775)976-6794 x41206\\\",\\\"website\\\":\\\"conrad.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Yost and Sons\\\",\\\"catchPhrase\\\":\\\"Switchable contextually-based project\\\",\\\"bs\\\":\\\"aggregate real-time technologies\\\"}},{\\\"id\\\":10,\\\"name\\\":\\\"Clementina DuBuque\\\",\\\"username\\\":\\\"Moriah.Stanton\\\",\\\"email\\\":\\\"Rey.Padberg@karina.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kattie Turnpike\\\",\\\"suite\\\":\\\"Suite 198\\\",\\\"city\\\":\\\"Lebsackbury\\\",\\\"zipcode\\\":\\\"31428-2261\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-38.2386\\\",\\\"lng\\\":\\\"57.2232\\\"}},\\\"phone\\\":\\\"024-648-3804\\\",\\\"website\\\":\\\"ambrose.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Hoeger LLC\\\",\\\"catchPhrase\\\":\\\"Centralized empowering task-force\\\",\\\"bs\\\":\\\"target end-to-end models\\\"}}]\",\"trace_id\":\"22497f7f472f69851f80effb6b7bfa9c\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "GET",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "dd8da5091166be7f",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "98128a05a419221a",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044908106388173,.  
+
+   WARN  "end": 1754044909174555036,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.full": "https:\/\/jsonplaceholder.typicode.com\/users",.  
+
+   WARN  "url.path": "\/users",.  
+
+   WARN  "url.scheme": "https",.  
+
+   WARN  "server.address": "jsonplaceholder.typicode.com",.  
+
+   WARN  "server.port": "",.  
+
+   WARN  "http.response.status_code": 200,.  
+
+   WARN  "http.response.body.size": "".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "2f653144ca6961fb",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "98128a05a419221a",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044908105795606,.  
+
+   WARN  "end": 1754044909178031845,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "e9feb6d7903d4d4d",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "98128a05a419221a",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044908103506031,.  
+
+   WARN  "end": 1754044909179546220,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "GET \/api\/external\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "22497f7f472f69851f80effb6b7bfa9c",.  
+
+   WARN  "span_id": "98128a05a419221a",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044908095964094,.  
+
+   WARN  "end": 1754044909179824464,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/external\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "55154",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/external\/people",.  
+
+   WARN  "http.response.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044908105317620,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044909178449646,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:48 ................................................... ~ 1s
+
+   WARN  {.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "laravel",.  
+
+   WARN  "version": "1.0.0",.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": null,.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044914253764,.  
+
+   WARN  "observed_timestamp": 1754044914254190848,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "method": "GET",.  
+
+   WARN  "ip": "172.18.0.1",.  
+
+   WARN  "user_agent": "curl\/8.5.0",.  
+
+   WARN  "request_data": [],.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044914257606,.  
+
+   WARN  "observed_timestamp": 1754044914257885952,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "method": "GET",.  
+
+   WARN  "ip": "172.18.0.1",.  
+
+   WARN  "user_agent": "curl\/8.5.0",.  
+
+   WARN  "request_data": [],.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": 1754044915359471,.  
+
+   WARN  "observed_timestamp": 1754044915359805184,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": null,.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "status_code": 200,.  
+
+   WARN  "response_data": "[{\"id\":1,\"name\":\"Leanne Graham\",\"username\":\"Bret\",\"email\":\"Sincere@april.biz\",\"address\":{\"street\":\"Kulas Light\",\"suite\":\"Apt. 556\",\"city\":\"Gwenborough\",\"zipcode\":\"92998-3874\",\"geo\":{\"lat\":\"-37.3159\",\"lng\":\"81.1496\"}},\"phone\":\"1-770-736-8031 x56442\",\"website\":\"hildegard.org\",\"company\":{\"name\":\"Romaguera-Crona\",\"catchPhrase\":\"Multi-layered client-server neural-net\",\"bs\":\"harness real-time e-markets\"}},{\"id\":2,\"name\":\"Ervin Howell\",\"username\":\"Antonette\",\"email\":\"Shanna@melissa.tv\",\"address\":{\"street\":\"Victor Plains\",\"suite\":\"Suite 879\",\"city\":\"Wisokyburgh\",\"zipcode\":\"90566-7771\",\"geo\":{\"lat\":\"-43.9509\",\"lng\":\"-34.4618\"}},\"phone\":\"010-692-6593 x09125\",\"website\":\"anastasia.net\",\"company\":{\"name\":\"Deckow-Crist\",\"catchPhrase\":\"Proactive didactic contingency\",\"bs\":\"synergize scalable supply-chains\"}},{\"id\":3,\"name\":\"Clementine Bauch\",\"username\":\"Samantha\",\"email\":\"Nathan@yesenia.net\",\"address\":{\"street\":\"Douglas Extension\",\"suite\":\"Suite 847\",\"city\":\"McKenziehaven\",\"zipcode\":\"59590-4157\",\"geo\":{\"lat\":\"-68.6102\",\"lng\":\"-47.0653\"}},\"phone\":\"1-463-123-4447\",\"website\":\"ramiro.info\",\"company\":{\"name\":\"Romaguera-Jacobson\",\"catchPhrase\":\"Face to face bifurcated interface\",\"bs\":\"e-enable strategic applications\"}},{\"id\":4,\"name\":\"Patricia Lebsack\",\"username\":\"Karianne\",\"email\":\"Julianne.OConner@kory.org\",\"address\":{\"street\":\"Hoeger Mall\",\"suite\":\"Apt. 692\",\"city\":\"South Elvis\",\"zipcode\":\"53919-4257\",\"geo\":{\"lat\":\"29.4572\",\"lng\":\"-164.2990\"}},\"phone\":\"493-170-9623 x156\",\"website\":\"kale.biz\",\"company\":{\"name\":\"Robel-Corkery\",\"catchPhrase\":\"Multi-tiered zero tolerance productivity\",\"bs\":\"transition cutting-edge web services\"}},{\"id\":5,\"name\":\"Chelsey Dietrich\",\"username\":\"Kamren\",\"email\":\"Lucio_Hettinger@annie.ca\",\"address\":{\"street\":\"Skiles Walks\",\"suite\":\"Suite 351\",\"city\":\"Roscoeview\",\"zipcode\":\"33263\",\"geo\":{\"lat\":\"-31.8129\",\"lng\":\"62.5342\"}},\"phone\":\"(254)954-1289\",\"website\":\"demarco.info\",\"company\":{\"name\":\"Keebler LLC\",\"catchPhrase\":\"User-centric fault-tolerant solution\",\"bs\":\"revolutionize end-to-end systems\"}},{\"id\":6,\"name\":\"Mrs. Dennis Schulist\",\"username\":\"Leopoldo_Corkery\",\"email\":\"Karley_Dach@jasper.info\",\"address\":{\"street\":\"Norberto Crossing\",\"suite\":\"Apt. 950\",\"city\":\"South Christy\",\"zipcode\":\"23505-1337\",\"geo\":{\"lat\":\"-71.4197\",\"lng\":\"71.7478\"}},\"phone\":\"1-477-935-8478 x6430\",\"website\":\"ola.org\",\"company\":{\"name\":\"Considine-Lockman\",\"catchPhrase\":\"Synchronised bottom-line interface\",\"bs\":\"e-enable innovative applications\"}},{\"id\":7,\"name\":\"Kurtis Weissnat\",\"username\":\"Elwyn.Skiles\",\"email\":\"Telly.Hoeger@billy.biz\",\"address\":{\"street\":\"Rex Trail\",\"suite\":\"Suite 280\",\"city\":\"Howemouth\",\"zipcode\":\"58804-1099\",\"geo\":{\"lat\":\"24.8918\",\"lng\":\"21.8984\"}},\"phone\":\"210.067.6132\",\"website\":\"elvis.io\",\"company\":{\"name\":\"Johns Group\",\"catchPhrase\":\"Configurable multimedia task-force\",\"bs\":\"generate enterprise e-tailers\"}},{\"id\":8,\"name\":\"Nicholas Runolfsdottir V\",\"username\":\"Maxime_Nienow\",\"email\":\"Sherwood@rosamond.me\",\"address\":{\"street\":\"Ellsworth Summit\",\"suite\":\"Suite 729\",\"city\":\"Aliyaview\",\"zipcode\":\"45169\",\"geo\":{\"lat\":\"-14.3990\",\"lng\":\"-120.7677\"}},\"phone\":\"586.493.6943 x140\",\"website\":\"jacynthe.com\",\"company\":{\"name\":\"Abernathy Group\",\"catchPhrase\":\"Implemented secondary concept\",\"bs\":\"e-enable extensible e-tailers\"}},{\"id\":9,\"name\":\"Glenna Reichert\",\"username\":\"Delphine\",\"email\":\"Chaim_McDermott@dana.io\",\"address\":{\"street\":\"Dayna Park\",\"suite\":\"Suite 449\",\"city\":\"Bartholomebury\",\"zipcode\":\"76495-3109\",\"geo\":{\"lat\":\"24.6463\",\"lng\":\"-168.8889\"}},\"phone\":\"(775)976-6794 x41206\",\"website\":\"conrad.com\",\"company\":{\"name\":\"Yost and Sons\",\"catchPhrase\":\"Switchable contextually-based project\",\"bs\":\"aggregate real-time technologies\"}},{\"id\":10,\"name\":\"Clementina DuBuque\",\"username\":\"Moriah.Stanton\",\"email\":\"Rey.Padberg@karina.biz\",\"address\":{\"street\":\"Kattie Turnpike\",\"suite\":\"Suite 198\",\"city\":\"Lebsackbury\",\"zipcode\":\"31428-2261\",\"geo\":{\"lat\":\"-38.2386\",\"lng\":\"57.2232\"}},\"phone\":\"024-648-3804\",\"website\":\"ambrose.net\",\"company\":{\"name\":\"Hoeger LLC\",\"catchPhrase\":\"Centralized empowering task-force\",\"bs\":\"target end-to-end models\"}}]",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }{.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044914254488832,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/external\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"93c34fe21ced156e890cfc25c5295d12\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044914258054144,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Request",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"url\":\"http:\\\/\\\/localhost:8000\\\/api\\\/external\\\/people\",\"method\":\"GET\",\"ip\":\"172.18.0.1\",\"user_agent\":\"curl\\\/8.5.0\",\"trace_id\":\"93c34fe21ced156e890cfc25c5295d12\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044915360236800,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"[{\\\"id\\\":1,\\\"name\\\":\\\"Leanne Graham\\\",\\\"username\\\":\\\"Bret\\\",\\\"email\\\":\\\"Sincere@april.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kulas Light\\\",\\\"suite\\\":\\\"Apt. 556\\\",\\\"city\\\":\\\"Gwenborough\\\",\\\"zipcode\\\":\\\"92998-3874\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-37.3159\\\",\\\"lng\\\":\\\"81.1496\\\"}},\\\"phone\\\":\\\"1-770-736-8031 x56442\\\",\\\"website\\\":\\\"hildegard.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Crona\\\",\\\"catchPhrase\\\":\\\"Multi-layered client-server neural-net\\\",\\\"bs\\\":\\\"harness real-time e-markets\\\"}},{\\\"id\\\":2,\\\"name\\\":\\\"Ervin Howell\\\",\\\"username\\\":\\\"Antonette\\\",\\\"email\\\":\\\"Shanna@melissa.tv\\\",\\\"address\\\":{\\\"street\\\":\\\"Victor Plains\\\",\\\"suite\\\":\\\"Suite 879\\\",\\\"city\\\":\\\"Wisokyburgh\\\",\\\"zipcode\\\":\\\"90566-7771\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-43.9509\\\",\\\"lng\\\":\\\"-34.4618\\\"}},\\\"phone\\\":\\\"010-692-6593 x09125\\\",\\\"website\\\":\\\"anastasia.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Deckow-Crist\\\",\\\"catchPhrase\\\":\\\"Proactive didactic contingency\\\",\\\"bs\\\":\\\"synergize scalable supply-chains\\\"}},{\\\"id\\\":3,\\\"name\\\":\\\"Clementine Bauch\\\",\\\"username\\\":\\\"Samantha\\\",\\\"email\\\":\\\"Nathan@yesenia.net\\\",\\\"address\\\":{\\\"street\\\":\\\"Douglas Extension\\\",\\\"suite\\\":\\\"Suite 847\\\",\\\"city\\\":\\\"McKenziehaven\\\",\\\"zipcode\\\":\\\"59590-4157\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-68.6102\\\",\\\"lng\\\":\\\"-47.0653\\\"}},\\\"phone\\\":\\\"1-463-123-4447\\\",\\\"website\\\":\\\"ramiro.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Jacobson\\\",\\\"catchPhrase\\\":\\\"Face to face bifurcated interface\\\",\\\"bs\\\":\\\"e-enable strategic applications\\\"}},{\\\"id\\\":4,\\\"name\\\":\\\"Patricia Lebsack\\\",\\\"username\\\":\\\"Karianne\\\",\\\"email\\\":\\\"Julianne.OConner@kory.org\\\",\\\"address\\\":{\\\"street\\\":\\\"Hoeger Mall\\\",\\\"suite\\\":\\\"Apt. 692\\\",\\\"city\\\":\\\"South Elvis\\\",\\\"zipcode\\\":\\\"53919-4257\\\",\\\"geo\\\":{\\\"lat\\\":\\\"29.4572\\\",\\\"lng\\\":\\\"-164.2990\\\"}},\\\"phone\\\":\\\"493-170-9623 x156\\\",\\\"website\\\":\\\"kale.biz\\\",\\\"company\\\":{\\\"name\\\":\\\"Robel-Corkery\\\",\\\"catchPhrase\\\":\\\"Multi-tiered zero tolerance productivity\\\",\\\"bs\\\":\\\"transition cutting-edge web services\\\"}},{\\\"id\\\":5,\\\"name\\\":\\\"Chelsey Dietrich\\\",\\\"username\\\":\\\"Kamren\\\",\\\"email\\\":\\\"Lucio_Hettinger@annie.ca\\\",\\\"address\\\":{\\\"street\\\":\\\"Skiles Walks\\\",\\\"suite\\\":\\\"Suite 351\\\",\\\"city\\\":\\\"Roscoeview\\\",\\\"zipcode\\\":\\\"33263\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-31.8129\\\",\\\"lng\\\":\\\"62.5342\\\"}},\\\"phone\\\":\\\"(254)954-1289\\\",\\\"website\\\":\\\"demarco.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Keebler LLC\\\",\\\"catchPhrase\\\":\\\"User-centric fault-tolerant solution\\\",\\\"bs\\\":\\\"revolutionize end-to-end systems\\\"}},{\\\"id\\\":6,\\\"name\\\":\\\"Mrs. Dennis Schulist\\\",\\\"username\\\":\\\"Leopoldo_Corkery\\\",\\\"email\\\":\\\"Karley_Dach@jasper.info\\\",\\\"address\\\":{\\\"street\\\":\\\"Norberto Crossing\\\",\\\"suite\\\":\\\"Apt. 950\\\",\\\"city\\\":\\\"South Christy\\\",\\\"zipcode\\\":\\\"23505-1337\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-71.4197\\\",\\\"lng\\\":\\\"71.7478\\\"}},\\\"phone\\\":\\\"1-477-935-8478 x6430\\\",\\\"website\\\":\\\"ola.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Considine-Lockman\\\",\\\"catchPhrase\\\":\\\"Synchronised bottom-line interface\\\",\\\"bs\\\":\\\"e-enable innovative applications\\\"}},{\\\"id\\\":7,\\\"name\\\":\\\"Kurtis Weissnat\\\",\\\"username\\\":\\\"Elwyn.Skiles\\\",\\\"email\\\":\\\"Telly.Hoeger@billy.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Rex Trail\\\",\\\"suite\\\":\\\"Suite 280\\\",\\\"city\\\":\\\"Howemouth\\\",\\\"zipcode\\\":\\\"58804-1099\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.8918\\\",\\\"lng\\\":\\\"21.8984\\\"}},\\\"phone\\\":\\\"210.067.6132\\\",\\\"website\\\":\\\"elvis.io\\\",\\\"company\\\":{\\\"name\\\":\\\"Johns Group\\\",\\\"catchPhrase\\\":\\\"Configurable multimedia task-force\\\",\\\"bs\\\":\\\"generate enterprise e-tailers\\\"}},{\\\"id\\\":8,\\\"name\\\":\\\"Nicholas Runolfsdottir V\\\",\\\"username\\\":\\\"Maxime_Nienow\\\",\\\"email\\\":\\\"Sherwood@rosamond.me\\\",\\\"address\\\":{\\\"street\\\":\\\"Ellsworth Summit\\\",\\\"suite\\\":\\\"Suite 729\\\",\\\"city\\\":\\\"Aliyaview\\\",\\\"zipcode\\\":\\\"45169\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-14.3990\\\",\\\"lng\\\":\\\"-120.7677\\\"}},\\\"phone\\\":\\\"586.493.6943 x140\\\",\\\"website\\\":\\\"jacynthe.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Abernathy Group\\\",\\\"catchPhrase\\\":\\\"Implemented secondary concept\\\",\\\"bs\\\":\\\"e-enable extensible e-tailers\\\"}},{\\\"id\\\":9,\\\"name\\\":\\\"Glenna Reichert\\\",\\\"username\\\":\\\"Delphine\\\",\\\"email\\\":\\\"Chaim_McDermott@dana.io\\\",\\\"address\\\":{\\\"street\\\":\\\"Dayna Park\\\",\\\"suite\\\":\\\"Suite 449\\\",\\\"city\\\":\\\"Bartholomebury\\\",\\\"zipcode\\\":\\\"76495-3109\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.6463\\\",\\\"lng\\\":\\\"-168.8889\\\"}},\\\"phone\\\":\\\"(775)976-6794 x41206\\\",\\\"website\\\":\\\"conrad.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Yost and Sons\\\",\\\"catchPhrase\\\":\\\"Switchable contextually-based project\\\",\\\"bs\\\":\\\"aggregate real-time technologies\\\"}},{\\\"id\\\":10,\\\"name\\\":\\\"Clementina DuBuque\\\",\\\"username\\\":\\\"Moriah.Stanton\\\",\\\"email\\\":\\\"Rey.Padberg@karina.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kattie Turnpike\\\",\\\"suite\\\":\\\"Suite 198\\\",\\\"city\\\":\\\"Lebsackbury\\\",\\\"zipcode\\\":\\\"31428-2261\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-38.2386\\\",\\\"lng\\\":\\\"57.2232\\\"}},\\\"phone\\\":\\\"024-648-3804\\\",\\\"website\\\":\\\"ambrose.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Hoeger LLC\\\",\\\"catchPhrase\\\":\\\"Centralized empowering task-force\\\",\\\"bs\\\":\\\"target end-to-end models\\\"}}]\",\"trace_id\":\"93c34fe21ced156e890cfc25c5295d12\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }{.  
+
+   WARN  "resource": {.  
+
+   WARN  "attributes": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  },.  
+
+   WARN  "scopes": [.  
+
+   WARN  {.  
+
+   WARN  "name": "io.opentelemetry.contrib.php.laravel",.  
+
+   WARN  "version": null,.  
+
+   WARN  "attributes": [],.  
+
+   WARN  "dropped_attributes_count": 0,.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0",.  
+
+   WARN  "logs": [.  
+
+   WARN  {.  
+
+   WARN  "timestamp": null,.  
+
+   WARN  "observed_timestamp": 1754044915361123072,.  
+
+   WARN  "severity_number": 9,.  
+
+   WARN  "severity_text": "info",.  
+
+   WARN  "body": "API Response",.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_flags": 1,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "context": "{\"status_code\":200,\"response_data\":\"[{\\\"id\\\":1,\\\"name\\\":\\\"Leanne Graham\\\",\\\"username\\\":\\\"Bret\\\",\\\"email\\\":\\\"Sincere@april.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kulas Light\\\",\\\"suite\\\":\\\"Apt. 556\\\",\\\"city\\\":\\\"Gwenborough\\\",\\\"zipcode\\\":\\\"92998-3874\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-37.3159\\\",\\\"lng\\\":\\\"81.1496\\\"}},\\\"phone\\\":\\\"1-770-736-8031 x56442\\\",\\\"website\\\":\\\"hildegard.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Crona\\\",\\\"catchPhrase\\\":\\\"Multi-layered client-server neural-net\\\",\\\"bs\\\":\\\"harness real-time e-markets\\\"}},{\\\"id\\\":2,\\\"name\\\":\\\"Ervin Howell\\\",\\\"username\\\":\\\"Antonette\\\",\\\"email\\\":\\\"Shanna@melissa.tv\\\",\\\"address\\\":{\\\"street\\\":\\\"Victor Plains\\\",\\\"suite\\\":\\\"Suite 879\\\",\\\"city\\\":\\\"Wisokyburgh\\\",\\\"zipcode\\\":\\\"90566-7771\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-43.9509\\\",\\\"lng\\\":\\\"-34.4618\\\"}},\\\"phone\\\":\\\"010-692-6593 x09125\\\",\\\"website\\\":\\\"anastasia.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Deckow-Crist\\\",\\\"catchPhrase\\\":\\\"Proactive didactic contingency\\\",\\\"bs\\\":\\\"synergize scalable supply-chains\\\"}},{\\\"id\\\":3,\\\"name\\\":\\\"Clementine Bauch\\\",\\\"username\\\":\\\"Samantha\\\",\\\"email\\\":\\\"Nathan@yesenia.net\\\",\\\"address\\\":{\\\"street\\\":\\\"Douglas Extension\\\",\\\"suite\\\":\\\"Suite 847\\\",\\\"city\\\":\\\"McKenziehaven\\\",\\\"zipcode\\\":\\\"59590-4157\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-68.6102\\\",\\\"lng\\\":\\\"-47.0653\\\"}},\\\"phone\\\":\\\"1-463-123-4447\\\",\\\"website\\\":\\\"ramiro.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Romaguera-Jacobson\\\",\\\"catchPhrase\\\":\\\"Face to face bifurcated interface\\\",\\\"bs\\\":\\\"e-enable strategic applications\\\"}},{\\\"id\\\":4,\\\"name\\\":\\\"Patricia Lebsack\\\",\\\"username\\\":\\\"Karianne\\\",\\\"email\\\":\\\"Julianne.OConner@kory.org\\\",\\\"address\\\":{\\\"street\\\":\\\"Hoeger Mall\\\",\\\"suite\\\":\\\"Apt. 692\\\",\\\"city\\\":\\\"South Elvis\\\",\\\"zipcode\\\":\\\"53919-4257\\\",\\\"geo\\\":{\\\"lat\\\":\\\"29.4572\\\",\\\"lng\\\":\\\"-164.2990\\\"}},\\\"phone\\\":\\\"493-170-9623 x156\\\",\\\"website\\\":\\\"kale.biz\\\",\\\"company\\\":{\\\"name\\\":\\\"Robel-Corkery\\\",\\\"catchPhrase\\\":\\\"Multi-tiered zero tolerance productivity\\\",\\\"bs\\\":\\\"transition cutting-edge web services\\\"}},{\\\"id\\\":5,\\\"name\\\":\\\"Chelsey Dietrich\\\",\\\"username\\\":\\\"Kamren\\\",\\\"email\\\":\\\"Lucio_Hettinger@annie.ca\\\",\\\"address\\\":{\\\"street\\\":\\\"Skiles Walks\\\",\\\"suite\\\":\\\"Suite 351\\\",\\\"city\\\":\\\"Roscoeview\\\",\\\"zipcode\\\":\\\"33263\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-31.8129\\\",\\\"lng\\\":\\\"62.5342\\\"}},\\\"phone\\\":\\\"(254)954-1289\\\",\\\"website\\\":\\\"demarco.info\\\",\\\"company\\\":{\\\"name\\\":\\\"Keebler LLC\\\",\\\"catchPhrase\\\":\\\"User-centric fault-tolerant solution\\\",\\\"bs\\\":\\\"revolutionize end-to-end systems\\\"}},{\\\"id\\\":6,\\\"name\\\":\\\"Mrs. Dennis Schulist\\\",\\\"username\\\":\\\"Leopoldo_Corkery\\\",\\\"email\\\":\\\"Karley_Dach@jasper.info\\\",\\\"address\\\":{\\\"street\\\":\\\"Norberto Crossing\\\",\\\"suite\\\":\\\"Apt. 950\\\",\\\"city\\\":\\\"South Christy\\\",\\\"zipcode\\\":\\\"23505-1337\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-71.4197\\\",\\\"lng\\\":\\\"71.7478\\\"}},\\\"phone\\\":\\\"1-477-935-8478 x6430\\\",\\\"website\\\":\\\"ola.org\\\",\\\"company\\\":{\\\"name\\\":\\\"Considine-Lockman\\\",\\\"catchPhrase\\\":\\\"Synchronised bottom-line interface\\\",\\\"bs\\\":\\\"e-enable innovative applications\\\"}},{\\\"id\\\":7,\\\"name\\\":\\\"Kurtis Weissnat\\\",\\\"username\\\":\\\"Elwyn.Skiles\\\",\\\"email\\\":\\\"Telly.Hoeger@billy.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Rex Trail\\\",\\\"suite\\\":\\\"Suite 280\\\",\\\"city\\\":\\\"Howemouth\\\",\\\"zipcode\\\":\\\"58804-1099\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.8918\\\",\\\"lng\\\":\\\"21.8984\\\"}},\\\"phone\\\":\\\"210.067.6132\\\",\\\"website\\\":\\\"elvis.io\\\",\\\"company\\\":{\\\"name\\\":\\\"Johns Group\\\",\\\"catchPhrase\\\":\\\"Configurable multimedia task-force\\\",\\\"bs\\\":\\\"generate enterprise e-tailers\\\"}},{\\\"id\\\":8,\\\"name\\\":\\\"Nicholas Runolfsdottir V\\\",\\\"username\\\":\\\"Maxime_Nienow\\\",\\\"email\\\":\\\"Sherwood@rosamond.me\\\",\\\"address\\\":{\\\"street\\\":\\\"Ellsworth Summit\\\",\\\"suite\\\":\\\"Suite 729\\\",\\\"city\\\":\\\"Aliyaview\\\",\\\"zipcode\\\":\\\"45169\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-14.3990\\\",\\\"lng\\\":\\\"-120.7677\\\"}},\\\"phone\\\":\\\"586.493.6943 x140\\\",\\\"website\\\":\\\"jacynthe.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Abernathy Group\\\",\\\"catchPhrase\\\":\\\"Implemented secondary concept\\\",\\\"bs\\\":\\\"e-enable extensible e-tailers\\\"}},{\\\"id\\\":9,\\\"name\\\":\\\"Glenna Reichert\\\",\\\"username\\\":\\\"Delphine\\\",\\\"email\\\":\\\"Chaim_McDermott@dana.io\\\",\\\"address\\\":{\\\"street\\\":\\\"Dayna Park\\\",\\\"suite\\\":\\\"Suite 449\\\",\\\"city\\\":\\\"Bartholomebury\\\",\\\"zipcode\\\":\\\"76495-3109\\\",\\\"geo\\\":{\\\"lat\\\":\\\"24.6463\\\",\\\"lng\\\":\\\"-168.8889\\\"}},\\\"phone\\\":\\\"(775)976-6794 x41206\\\",\\\"website\\\":\\\"conrad.com\\\",\\\"company\\\":{\\\"name\\\":\\\"Yost and Sons\\\",\\\"catchPhrase\\\":\\\"Switchable contextually-based project\\\",\\\"bs\\\":\\\"aggregate real-time technologies\\\"}},{\\\"id\\\":10,\\\"name\\\":\\\"Clementina DuBuque\\\",\\\"username\\\":\\\"Moriah.Stanton\\\",\\\"email\\\":\\\"Rey.Padberg@karina.biz\\\",\\\"address\\\":{\\\"street\\\":\\\"Kattie Turnpike\\\",\\\"suite\\\":\\\"Suite 198\\\",\\\"city\\\":\\\"Lebsackbury\\\",\\\"zipcode\\\":\\\"31428-2261\\\",\\\"geo\\\":{\\\"lat\\\":\\\"-38.2386\\\",\\\"lng\\\":\\\"57.2232\\\"}},\\\"phone\\\":\\\"024-648-3804\\\",\\\"website\\\":\\\"ambrose.net\\\",\\\"company\\\":{\\\"name\\\":\\\"Hoeger LLC\\\",\\\"catchPhrase\\\":\\\"Centralized empowering task-force\\\",\\\"bs\\\":\\\"target end-to-end models\\\"}}]\",\"trace_id\":\"93c34fe21ced156e890cfc25c5295d12\"}".  
+
+   WARN  },.  
+
+   WARN  "dropped_attributes_count": 0.  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  }[.  
+
+   WARN  {.  
+
+   WARN  "name": "GET",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "5584c7468ac65c48",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "89e2a00ce26a478b",.  
+
+   WARN  "kind": "KIND_CLIENT",.  
+
+   WARN  "start": 1754044914259562453,.  
+
+   WARN  "end": 1754044915358260861,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.full": "https:\/\/jsonplaceholder.typicode.com\/users",.  
+
+   WARN  "url.path": "\/users",.  
+
+   WARN  "url.scheme": "https",.  
+
+   WARN  "server.address": "jsonplaceholder.typicode.com",.  
+
+   WARN  "server.port": "",.  
+
+   WARN  "http.response.status_code": 200,.  
+
+   WARN  "http.response.body.size": "".  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "4b4639460edb70db",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "89e2a00ce26a478b",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044914257413761,.  
+
+   WARN  "end": 1754044915360420556,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "http.request",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "bac3b3e43395b623",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "89e2a00ce26a478b",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044914252314693,.  
+
+   WARN  "end": 1754044915361137273,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "http.method": "GET",.  
+
+   WARN  "http.url": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.user_agent": "curl\/8.5.0",.  
+
+   WARN  "http.client_ip": "172.18.0.1",.  
+
+   WARN  "http.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Ok",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+   WARN  [.  
+
+   WARN  {.  
+
+   WARN  "name": "GET \/api\/external\/people",.  
+
+   WARN  "context": {.  
+
+   WARN  "trace_id": "93c34fe21ced156e890cfc25c5295d12",.  
+
+   WARN  "span_id": "89e2a00ce26a478b",.  
+
+   WARN  "trace_state": "",.  
+
+   WARN  "trace_flags": 1.  
+
+   WARN  },.  
+
+   WARN  "resource": {.  
+
+   WARN  "host.name": "995b7b57fa7c",.  
+
+   WARN  "host.arch": "x86_64",.  
+
+   WARN  "os.type": "linux",.  
+
+   WARN  "os.description": "6.6.87.2-microsoft-standard-WSL2",.  
+
+   WARN  "os.name": "Linux",.  
+
+   WARN  "os.version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 5 18:30:46 UTC 2025",.  
+
+   WARN  "process.pid": 10,.  
+
+   WARN  "process.executable.path": "\/usr\/local\/bin\/php",.  
+
+   WARN  "process.owner": "root",.  
+
+   WARN  "process.runtime.name": "cli-server",.  
+
+   WARN  "process.runtime.version": "8.2.29",.  
+
+   WARN  "telemetry.sdk.name": "opentelemetry",.  
+
+   WARN  "telemetry.sdk.language": "php",.  
+
+   WARN  "telemetry.sdk.version": "1.2.2",.  
+
+   WARN  "telemetry.distro.name": "opentelemetry-php-instrumentation",.  
+
+   WARN  "telemetry.distro.version": "1.0.0beta3",.  
+
+   WARN  "service.name": "Laravel-Instrumentation",.  
+
+   WARN  "service.version": "dev-master".  
+
+   WARN  },.  
+
+   WARN  "parent_span_id": "",.  
+
+   WARN  "kind": "KIND_SERVER",.  
+
+   WARN  "start": 1754044914234413085,.  
+
+   WARN  "end": 1754044915361283402,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "code.function": "handle",.  
+
+   WARN  "code.namespace": "Illuminate\\Foundation\\Http\\Kernel",.  
+
+   WARN  "code.filepath": "\/var\/www\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php",.  
+
+   WARN  "code.lineno": 137,.  
+
+   WARN  "url.full": "http:\/\/localhost:8000\/api\/external\/people",.  
+
+   WARN  "http.request.method": "GET",.  
+
+   WARN  "url.scheme": "http",.  
+
+   WARN  "network.protocol.version": "1.1",.  
+
+   WARN  "network.peer.address": "172.18.0.1",.  
+
+   WARN  "url.path": "api\/external\/people",.  
+
+   WARN  "server.address": "localhost",.  
+
+   WARN  "server.port": 8000,.  
+
+   WARN  "client.port": "37696",.  
+
+   WARN  "user_agent.original": "curl\/8.5.0",.  
+
+   WARN  "http.route": "api\/external\/people",.  
+
+   WARN  "http.response.status_code": 200.  
+
+   WARN  },.  
+
+   WARN  "status": {.  
+
+   WARN  "code": "Unset",.  
+
+   WARN  "description": "".  
+
+   WARN  },.  
+
+   WARN  "events": [.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044914256289113,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  },.  
+
+   WARN  {.  
+
+   WARN  "name": "cache hit",.  
+
+   WARN  "timestamp": 1754044915360667654,.  
+
+   WARN  "attributes": {.  
+
+   WARN  "key": "6e49a48b7049b5d2a11287848435e0b8",.  
+
+   WARN  "tags": "[]".  
+
+   WARN  }.  
+
+   WARN  }.  
+
+   WARN  ],.  
+
+   WARN  "links": [],.  
+
+   WARN  "schema_url": "https:\/\/opentelemetry.io\/schemas\/1.24.0".  
+
+   WARN  }.  
+
+   WARN  ].  
+
+  2025-08-01 10:41:54 ................................................... ~ 1s
