@@ -5,32 +5,34 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    # image: syednurjim/php-auto-instrument:stage
     container_name: laravel_test_project
-    volumes:
-      - /home/zim/code/project-fly_eyes/laravel_crud/test-project:/var/www
-    ports:
-      - "8000:8000"
-    command: sh -c "php artisan serve --host=0.0.0.0 --port=8000 > /var/www/otel_output.txt 2>&1"
+    # volumes:
+    #   - /home/zim/code/project-fly_eyes/laravel_crud/test-project:/var/www
     networks:
       - app-network
     #   - signoz-net
-
+    depends_on:
+      - db
     # environment:
+    #   - APP_ENV=production
+    #   - APP_DEBUG=false
     #   - OTLP_ENDPOINT=http://10.104.10.140:4318/v1/traces
 
+  web:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "8000:80"
+    volumes:
+    #   - /home/zim/code/project-fly_eyes/laravel_crud/test-project:/var/www
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+    networks:
+      - app-network
+
   db:
-    # image: mysql:8.0
-    # container_name: laravel_db
-    # environment:
-    #   MYSQL_DATABASE: test_crud
-    #   MYSQL_ROOT_PASSWORD: ""
-    #   MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-    # volumes:
-    #   - dbdata:/var/lib/mysql
-    # networks:
-    #   - app-network
-
-
     image: postgres:15
     container_name: php-postgres
     environment:
@@ -39,14 +41,16 @@ services:
       POSTGRES_PASSWORD: "root"
     ports:
       - "5433:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
     networks:
       - app-network
 
 networks:
   app-network:
     driver: bridge
-  signoz-net:
-    external: true
+#   signoz-net:
+#     external: true
 
 volumes:
   dbdata:
