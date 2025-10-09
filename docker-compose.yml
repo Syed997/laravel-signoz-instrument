@@ -14,10 +14,19 @@ services:
     #   - signoz-net
     depends_on:
       - db
-    # environment:
-    #   - APP_ENV=production
-    #   - APP_DEBUG=false
-    #   - OTLP_ENDPOINT=http://10.104.10.140:4318/v1/traces
+    environment:
+      # === Laravel OpenTelemetry Configuration ===
+      - OTEL_SERVICE_NAME=Laravel-Instrumentation-Nginx
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://10.104.10.140:44318/v1/traces
+      - OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=http://10.104.10.140:44318/v1/traces
+      - OTEL_EXPORTER_OTLP_LOGS_ENDPOINT=http://10.104.10.140:44318/v1/logs
+      - OTEL_PHP_AUTOLOAD_ENABLED=true
+      - OTEL_TRACES_EXPORTER=otlp
+      - OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
+      - OTEL_LOG_LEVEL=info
+      # - OTEL_LOG_LEVEL=none  # uncomment to silence logs
+      - OTEL_PROPAGATORS=baggage,tracecontext
+      - OTEL_ENABLED=true
 
   web:
     image: nginx:latest
