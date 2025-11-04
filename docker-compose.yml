@@ -6,8 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: laravel_test_project
-    volumes:
-      - /home/zim/code/project-fly_eyes/laravel_crud/test-project:/var/www
+    # volumes:
+    #   - ./:/var/www
     ports:
       - "8000:8000"
     command: php artisan serve --host=0.0.0.0 --port=8000
